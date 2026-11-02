@@ -1,0 +1,4310 @@
+{
+  "meta": {
+    "prototype_split": "train",
+    "topk": 8,
+    "min_class_instances": 17,
+    "n_visual_pairs": 443,
+    "n_agreeing_with_mllm": 191,
+    "agreement_rate": 0.431
+  },
+  "hardest_pairs": [
+    {
+      "a": "AirbusA320",
+      "b": "Boeing737",
+      "visual_similarity": 0.9987,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "F22",
+      "b": "F35",
+      "visual_similarity": 0.9987,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "J20",
+      "b": "J35",
+      "visual_similarity": 0.9986,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Boeing757",
+      "b": "Boeing767",
+      "visual_similarity": 0.9985,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "C17",
+      "b": "C5",
+      "visual_similarity": 0.9985,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA340",
+      "b": "AirbusA380",
+      "visual_similarity": 0.9984,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Boeing777",
+      "b": "Boeing787",
+      "visual_similarity": 0.9984,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "JAS39",
+      "b": "Rafale",
+      "visual_similarity": 0.9984,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "F2",
+      "b": "FCK1",
+      "visual_similarity": 0.9983,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA330",
+      "b": "Boeing787",
+      "visual_similarity": 0.9982,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Mirage2000",
+      "b": "Rafale",
+      "visual_similarity": 0.9982,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "C17",
+      "b": "Y20",
+      "visual_similarity": 0.9981,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "EF2000",
+      "b": "Rafale",
+      "visual_similarity": 0.9981,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "J10",
+      "b": "Tejas",
+      "visual_similarity": 0.9981,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "Z10",
+      "b": "Z19",
+      "visual_similarity": 0.9981,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA330",
+      "b": "AirbusA350",
+      "visual_similarity": 0.998,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA340",
+      "b": "Boeing747",
+      "visual_similarity": 0.998,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA380",
+      "b": "Boeing747",
+      "visual_similarity": 0.9979,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Mi24",
+      "b": "Mi28",
+      "visual_similarity": 0.9979,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA330",
+      "b": "Boeing777",
+      "visual_similarity": 0.9978,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA330",
+      "b": "Boeing767",
+      "visual_similarity": 0.9978,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "F35",
+      "b": "J35",
+      "visual_similarity": 0.9978,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA320",
+      "b": "AirbusA330",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA330",
+      "b": "Boeing757",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA350",
+      "b": "Boeing757",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "Boeing737",
+      "b": "Boeing777",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "EF2000",
+      "b": "JAS39",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "F22",
+      "b": "J35",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Mi24",
+      "b": "Z10",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Su24",
+      "b": "Tu22M",
+      "visual_similarity": 0.9977,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "F16",
+      "b": "F2",
+      "visual_similarity": 0.9976,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "F16",
+      "b": "JF17",
+      "visual_similarity": 0.9976,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Il76",
+      "b": "Y20",
+      "visual_similarity": 0.9976,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "JF17",
+      "b": "Mirage2000",
+      "visual_similarity": 0.9976,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "Mig29",
+      "b": "Su34",
+      "visual_similarity": 0.9976,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA320",
+      "b": "Boeing757",
+      "visual_similarity": 0.9975,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA340",
+      "b": "Boeing767",
+      "visual_similarity": 0.9975,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "FCK1",
+      "b": "JF17",
+      "visual_similarity": 0.9975,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "MQ9",
+      "b": "RQ4",
+      "visual_similarity": 0.9975,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Su34",
+      "b": "Su57",
+      "visual_similarity": 0.9975,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA330",
+      "b": "Boeing737",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AirbusA350",
+      "b": "Boeing767",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Boeing767",
+      "b": "Boeing787",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "E2",
+      "b": "KJ600",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "FCK1",
+      "b": "JAS39",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "Mi24",
+      "b": "Mi8",
+      "visual_similarity": 0.9974,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "An72",
+      "b": "Il76",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "C1",
+      "b": "C390",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "C130",
+      "b": "P3",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "J10",
+      "b": "JH7",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "JF17",
+      "b": "Rafale",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "Mig29",
+      "b": "Mig31",
+      "visual_similarity": 0.9973,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "AirbusA350",
+      "b": "Boeing787",
+      "visual_similarity": 0.9972,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "J20",
+      "b": "Su57",
+      "visual_similarity": 0.9972,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "J36",
+      "b": "J50",
+      "visual_similarity": 0.9972,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "JAS39",
+      "b": "Mirage2000",
+      "visual_similarity": 0.9972,
+      "named_by_mllm": false,
+      "named_both_ways": false
+    },
+    {
+      "a": "AH64",
+      "b": "Z10",
+      "visual_similarity": 0.9971,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "An124",
+      "b": "An225",
+      "visual_similarity": 0.9971,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Boeing737",
+      "b": "Boeing787",
+      "visual_similarity": 0.9971,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    },
+    {
+      "a": "Boeing757",
+      "b": "Boeing777",
+      "visual_similarity": 0.9971,
+      "named_by_mllm": true,
+      "named_both_ways": true
+    }
+  ],
+  "per_class": {
+    "A10": [
+      {
+        "class": "E2",
+        "sim": 0.9946
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.9943
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9934
+      },
+      {
+        "class": "EMB314",
+        "sim": 0.9932
+      },
+      {
+        "class": "C130",
+        "sim": 0.9931
+      },
+      {
+        "class": "F18",
+        "sim": 0.9925
+      },
+      {
+        "class": "U2",
+        "sim": 0.9924
+      },
+      {
+        "class": "F16",
+        "sim": 0.9922
+      }
+    ],
+    "A400M": [
+      {
+        "class": "C17",
+        "sim": 0.9963
+      },
+      {
+        "class": "C390",
+        "sim": 0.9963
+      },
+      {
+        "class": "C5",
+        "sim": 0.9958
+      },
+      {
+        "class": "C2",
+        "sim": 0.9957
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9952
+      },
+      {
+        "class": "C1",
+        "sim": 0.9945
+      },
+      {
+        "class": "An22",
+        "sim": 0.9936
+      },
+      {
+        "class": "C130",
+        "sim": 0.9932
+      }
+    ],
+    "AG600": [
+      {
+        "class": "Be200",
+        "sim": 0.9941
+      },
+      {
+        "class": "An22",
+        "sim": 0.9939
+      },
+      {
+        "class": "US2",
+        "sim": 0.9938
+      },
+      {
+        "class": "An72",
+        "sim": 0.9928
+      },
+      {
+        "class": "C390",
+        "sim": 0.9904
+      },
+      {
+        "class": "C1",
+        "sim": 0.9896
+      },
+      {
+        "class": "CL415",
+        "sim": 0.9894
+      },
+      {
+        "class": "An124",
+        "sim": 0.9894
+      }
+    ],
+    "AH64": [
+      {
+        "class": "Z10",
+        "sim": 0.9971
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9963
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9957
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9948
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9943
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9942
+      },
+      {
+        "class": "NH90",
+        "sim": 0.9935
+      },
+      {
+        "class": "Z21",
+        "sim": 0.9933
+      }
+    ],
+    "AKINCI": [
+      {
+        "class": "RQ4",
+        "sim": 0.9959
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9953
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9944
+      },
+      {
+        "class": "U2",
+        "sim": 0.9942
+      },
+      {
+        "class": "TB2",
+        "sim": 0.9942
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9938
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9934
+      },
+      {
+        "class": "An72",
+        "sim": 0.9931
+      }
+    ],
+    "AV8B": [
+      {
+        "class": "F4",
+        "sim": 0.9958
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9951
+      },
+      {
+        "class": "Tornado",
+        "sim": 0.9948
+      },
+      {
+        "class": "F14",
+        "sim": 0.9945
+      },
+      {
+        "class": "F18",
+        "sim": 0.9944
+      },
+      {
+        "class": "F15",
+        "sim": 0.9942
+      },
+      {
+        "class": "F2",
+        "sim": 0.9935
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9934
+      }
+    ],
+    "AirbusA320": [
+      {
+        "class": "Boeing737",
+        "sim": 0.9987
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9977
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9975
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.997
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9968
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9967
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9964
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9936
+      }
+    ],
+    "AirbusA330": [
+      {
+        "class": "Boeing787",
+        "sim": 0.9982
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.998
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9978
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9978
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9977
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.9977
+      },
+      {
+        "class": "Boeing737",
+        "sim": 0.9974
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9968
+      }
+    ],
+    "AirbusA340": [
+      {
+        "class": "AirbusA380",
+        "sim": 0.9984
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.998
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9975
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9968
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9965
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9961
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9951
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9943
+      }
+    ],
+    "AirbusA350": [
+      {
+        "class": "AirbusA330",
+        "sim": 0.998
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9977
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9974
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9972
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.997
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9965
+      },
+      {
+        "class": "Boeing737",
+        "sim": 0.9964
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9961
+      }
+    ],
+    "AirbusA380": [
+      {
+        "class": "AirbusA340",
+        "sim": 0.9984
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.9979
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9958
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9955
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9955
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.995
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9948
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9942
+      }
+    ],
+    "An124": [
+      {
+        "class": "An225",
+        "sim": 0.9971
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.9951
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9947
+      },
+      {
+        "class": "An72",
+        "sim": 0.9939
+      },
+      {
+        "class": "E7",
+        "sim": 0.9935
+      },
+      {
+        "class": "Be200",
+        "sim": 0.9932
+      },
+      {
+        "class": "C5",
+        "sim": 0.9931
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.993
+      }
+    ],
+    "An22": [
+      {
+        "class": "An225",
+        "sim": 0.9948
+      },
+      {
+        "class": "An72",
+        "sim": 0.9941
+      },
+      {
+        "class": "AG600",
+        "sim": 0.9939
+      },
+      {
+        "class": "US2",
+        "sim": 0.9937
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9936
+      },
+      {
+        "class": "C130",
+        "sim": 0.9936
+      },
+      {
+        "class": "C390",
+        "sim": 0.9932
+      },
+      {
+        "class": "C5",
+        "sim": 0.9932
+      }
+    ],
+    "An225": [
+      {
+        "class": "An124",
+        "sim": 0.9971
+      },
+      {
+        "class": "An22",
+        "sim": 0.9948
+      },
+      {
+        "class": "C5",
+        "sim": 0.9947
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9944
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9938
+      },
+      {
+        "class": "An72",
+        "sim": 0.9934
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9932
+      },
+      {
+        "class": "B52",
+        "sim": 0.993
+      }
+    ],
+    "An72": [
+      {
+        "class": "Il76",
+        "sim": 0.9973
+      },
+      {
+        "class": "Be200",
+        "sim": 0.9966
+      },
+      {
+        "class": "C390",
+        "sim": 0.9953
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9953
+      },
+      {
+        "class": "C1",
+        "sim": 0.9946
+      },
+      {
+        "class": "An22",
+        "sim": 0.9941
+      },
+      {
+        "class": "C17",
+        "sim": 0.9939
+      },
+      {
+        "class": "An124",
+        "sim": 0.9939
+      }
+    ],
+    "B1": [
+      {
+        "class": "Tu160",
+        "sim": 0.996
+      },
+      {
+        "class": "Vulcan",
+        "sim": 0.9956
+      },
+      {
+        "class": "B52",
+        "sim": 0.9955
+      },
+      {
+        "class": "U2",
+        "sim": 0.9954
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9945
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9943
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9937
+      },
+      {
+        "class": "H6",
+        "sim": 0.9929
+      }
+    ],
+    "B2": [
+      {
+        "class": "B21",
+        "sim": 0.9967
+      },
+      {
+        "class": "F117",
+        "sim": 0.9958
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.992
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9919
+      },
+      {
+        "class": "J50",
+        "sim": 0.9916
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9913
+      },
+      {
+        "class": "U2",
+        "sim": 0.9913
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9907
+      }
+    ],
+    "B21": [
+      {
+        "class": "B2",
+        "sim": 0.9967
+      },
+      {
+        "class": "F117",
+        "sim": 0.9926
+      },
+      {
+        "class": "J50",
+        "sim": 0.9924
+      },
+      {
+        "class": "J36",
+        "sim": 0.9922
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.992
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9893
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.9892
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9875
+      }
+    ],
+    "B52": [
+      {
+        "class": "KC135",
+        "sim": 0.9961
+      },
+      {
+        "class": "B1",
+        "sim": 0.9955
+      },
+      {
+        "class": "U2",
+        "sim": 0.995
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9946
+      },
+      {
+        "class": "H6",
+        "sim": 0.9944
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9942
+      },
+      {
+        "class": "P3",
+        "sim": 0.9939
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.9938
+      }
+    ],
+    "Be200": [
+      {
+        "class": "An72",
+        "sim": 0.9966
+      },
+      {
+        "class": "AG600",
+        "sim": 0.9941
+      },
+      {
+        "class": "C1",
+        "sim": 0.9939
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9936
+      },
+      {
+        "class": "US2",
+        "sim": 0.9932
+      },
+      {
+        "class": "An124",
+        "sim": 0.9932
+      },
+      {
+        "class": "C390",
+        "sim": 0.9931
+      },
+      {
+        "class": "An22",
+        "sim": 0.9928
+      }
+    ],
+    "Boeing737": [
+      {
+        "class": "AirbusA320",
+        "sim": 0.9987
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9977
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9974
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9971
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9969
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9964
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9962
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.9937
+      }
+    ],
+    "Boeing747": [
+      {
+        "class": "AirbusA340",
+        "sim": 0.998
+      },
+      {
+        "class": "AirbusA380",
+        "sim": 0.9979
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9968
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9958
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9953
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9952
+      },
+      {
+        "class": "An124",
+        "sim": 0.9951
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9948
+      }
+    ],
+    "Boeing757": [
+      {
+        "class": "Boeing767",
+        "sim": 0.9985
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9977
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9977
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.9975
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9971
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.997
+      },
+      {
+        "class": "Boeing737",
+        "sim": 0.9969
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9965
+      }
+    ],
+    "Boeing767": [
+      {
+        "class": "Boeing757",
+        "sim": 0.9985
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9978
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9975
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9974
+      },
+      {
+        "class": "Boeing787",
+        "sim": 0.9974
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.9968
+      },
+      {
+        "class": "Boeing777",
+        "sim": 0.9965
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.9964
+      }
+    ],
+    "Boeing777": [
+      {
+        "class": "Boeing787",
+        "sim": 0.9984
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9978
+      },
+      {
+        "class": "Boeing737",
+        "sim": 0.9977
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9971
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.9967
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9965
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9965
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.9946
+      }
+    ],
+    "Boeing787": [
+      {
+        "class": "Boeing777",
+        "sim": 0.9984
+      },
+      {
+        "class": "AirbusA330",
+        "sim": 0.9982
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9974
+      },
+      {
+        "class": "AirbusA350",
+        "sim": 0.9972
+      },
+      {
+        "class": "Boeing737",
+        "sim": 0.9971
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.997
+      },
+      {
+        "class": "AirbusA320",
+        "sim": 0.9968
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.9951
+      }
+    ],
+    "C1": [
+      {
+        "class": "C390",
+        "sim": 0.9973
+      },
+      {
+        "class": "C2",
+        "sim": 0.9966
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9956
+      },
+      {
+        "class": "An72",
+        "sim": 0.9946
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9945
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9945
+      },
+      {
+        "class": "US2",
+        "sim": 0.9943
+      },
+      {
+        "class": "C17",
+        "sim": 0.9941
+      }
+    ],
+    "C130": [
+      {
+        "class": "P3",
+        "sim": 0.9973
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9946
+      },
+      {
+        "class": "C17",
+        "sim": 0.9946
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9938
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9936
+      },
+      {
+        "class": "B52",
+        "sim": 0.9936
+      },
+      {
+        "class": "An22",
+        "sim": 0.9936
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9932
+      }
+    ],
+    "C17": [
+      {
+        "class": "C5",
+        "sim": 0.9985
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9981
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9963
+      },
+      {
+        "class": "C390",
+        "sim": 0.9962
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9959
+      },
+      {
+        "class": "C2",
+        "sim": 0.9958
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9953
+      },
+      {
+        "class": "C130",
+        "sim": 0.9946
+      }
+    ],
+    "C2": [
+      {
+        "class": "C390",
+        "sim": 0.9967
+      },
+      {
+        "class": "C1",
+        "sim": 0.9966
+      },
+      {
+        "class": "C5",
+        "sim": 0.996
+      },
+      {
+        "class": "C17",
+        "sim": 0.9958
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9957
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9951
+      },
+      {
+        "class": "An72",
+        "sim": 0.9931
+      },
+      {
+        "class": "An225",
+        "sim": 0.9925
+      }
+    ],
+    "C390": [
+      {
+        "class": "C1",
+        "sim": 0.9973
+      },
+      {
+        "class": "C2",
+        "sim": 0.9967
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9963
+      },
+      {
+        "class": "C17",
+        "sim": 0.9962
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9961
+      },
+      {
+        "class": "C5",
+        "sim": 0.9956
+      },
+      {
+        "class": "An72",
+        "sim": 0.9953
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9943
+      }
+    ],
+    "C5": [
+      {
+        "class": "C17",
+        "sim": 0.9985
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9969
+      },
+      {
+        "class": "C2",
+        "sim": 0.996
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9959
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9958
+      },
+      {
+        "class": "C390",
+        "sim": 0.9956
+      },
+      {
+        "class": "An225",
+        "sim": 0.9947
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9941
+      }
+    ],
+    "CH47": [
+      {
+        "class": "UH60",
+        "sim": 0.9935
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.993
+      },
+      {
+        "class": "CH53",
+        "sim": 0.9917
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9911
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9911
+      },
+      {
+        "class": "Mi26",
+        "sim": 0.9911
+      },
+      {
+        "class": "V22",
+        "sim": 0.9902
+      },
+      {
+        "class": "Z19",
+        "sim": 0.99
+      }
+    ],
+    "CH53": [
+      {
+        "class": "UH60",
+        "sim": 0.9963
+      },
+      {
+        "class": "NH90",
+        "sim": 0.9961
+      },
+      {
+        "class": "Mi26",
+        "sim": 0.9951
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.994
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9938
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9937
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9934
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.993
+      }
+    ],
+    "CL415": [
+      {
+        "class": "US2",
+        "sim": 0.9922
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.992
+      },
+      {
+        "class": "E2",
+        "sim": 0.9912
+      },
+      {
+        "class": "AG600",
+        "sim": 0.9894
+      },
+      {
+        "class": "Be200",
+        "sim": 0.9889
+      },
+      {
+        "class": "EMB314",
+        "sim": 0.9889
+      },
+      {
+        "class": "U2",
+        "sim": 0.9877
+      },
+      {
+        "class": "An72",
+        "sim": 0.9875
+      }
+    ],
+    "E2": [
+      {
+        "class": "KJ600",
+        "sim": 0.9974
+      },
+      {
+        "class": "US2",
+        "sim": 0.9946
+      },
+      {
+        "class": "A10",
+        "sim": 0.9946
+      },
+      {
+        "class": "V22",
+        "sim": 0.9941
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9925
+      },
+      {
+        "class": "C130",
+        "sim": 0.9925
+      },
+      {
+        "class": "V280",
+        "sim": 0.9924
+      },
+      {
+        "class": "An72",
+        "sim": 0.992
+      }
+    ],
+    "E7": [
+      {
+        "class": "An124",
+        "sim": 0.9935
+      },
+      {
+        "class": "Boeing747",
+        "sim": 0.993
+      },
+      {
+        "class": "Boeing767",
+        "sim": 0.9929
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9926
+      },
+      {
+        "class": "AirbusA340",
+        "sim": 0.992
+      },
+      {
+        "class": "An72",
+        "sim": 0.9919
+      },
+      {
+        "class": "Boeing757",
+        "sim": 0.9913
+      },
+      {
+        "class": "C390",
+        "sim": 0.9912
+      }
+    ],
+    "EF2000": [
+      {
+        "class": "Rafale",
+        "sim": 0.9981
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9977
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9969
+      },
+      {
+        "class": "J10",
+        "sim": 0.9967
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9967
+      },
+      {
+        "class": "Tornado",
+        "sim": 0.9958
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9956
+      },
+      {
+        "class": "F16",
+        "sim": 0.9955
+      }
+    ],
+    "EMB314": [
+      {
+        "class": "A10",
+        "sim": 0.9932
+      },
+      {
+        "class": "T50",
+        "sim": 0.9925
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.9917
+      },
+      {
+        "class": "E2",
+        "sim": 0.991
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9909
+      },
+      {
+        "class": "F16",
+        "sim": 0.9908
+      },
+      {
+        "class": "F18",
+        "sim": 0.9906
+      },
+      {
+        "class": "U2",
+        "sim": 0.9905
+      }
+    ],
+    "F117": [
+      {
+        "class": "B2",
+        "sim": 0.9958
+      },
+      {
+        "class": "J35",
+        "sim": 0.9933
+      },
+      {
+        "class": "J20",
+        "sim": 0.9932
+      },
+      {
+        "class": "SR71",
+        "sim": 0.993
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9928
+      },
+      {
+        "class": "B21",
+        "sim": 0.9926
+      },
+      {
+        "class": "J50",
+        "sim": 0.9919
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9916
+      }
+    ],
+    "F14": [
+      {
+        "class": "F15",
+        "sim": 0.9971
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.996
+      },
+      {
+        "class": "F18",
+        "sim": 0.9957
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9953
+      },
+      {
+        "class": "Mig29",
+        "sim": 0.9951
+      },
+      {
+        "class": "F4",
+        "sim": 0.995
+      },
+      {
+        "class": "J10",
+        "sim": 0.9948
+      },
+      {
+        "class": "J20",
+        "sim": 0.9947
+      }
+    ],
+    "F15": [
+      {
+        "class": "F18",
+        "sim": 0.9971
+      },
+      {
+        "class": "F14",
+        "sim": 0.9971
+      },
+      {
+        "class": "F16",
+        "sim": 0.9969
+      },
+      {
+        "class": "F2",
+        "sim": 0.9964
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9962
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9958
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9953
+      },
+      {
+        "class": "Mig29",
+        "sim": 0.9952
+      }
+    ],
+    "F16": [
+      {
+        "class": "F2",
+        "sim": 0.9976
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9976
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.997
+      },
+      {
+        "class": "F15",
+        "sim": 0.9969
+      },
+      {
+        "class": "F18",
+        "sim": 0.9967
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9967
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9964
+      },
+      {
+        "class": "J10",
+        "sim": 0.9964
+      }
+    ],
+    "F18": [
+      {
+        "class": "F15",
+        "sim": 0.9971
+      },
+      {
+        "class": "F16",
+        "sim": 0.9967
+      },
+      {
+        "class": "F2",
+        "sim": 0.9961
+      },
+      {
+        "class": "F14",
+        "sim": 0.9957
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.995
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9948
+      },
+      {
+        "class": "F35",
+        "sim": 0.9947
+      },
+      {
+        "class": "AV8B",
+        "sim": 0.9944
+      }
+    ],
+    "F2": [
+      {
+        "class": "FCK1",
+        "sim": 0.9983
+      },
+      {
+        "class": "F16",
+        "sim": 0.9976
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9968
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9967
+      },
+      {
+        "class": "F15",
+        "sim": 0.9964
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9962
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9962
+      },
+      {
+        "class": "F18",
+        "sim": 0.9961
+      }
+    ],
+    "F22": [
+      {
+        "class": "F35",
+        "sim": 0.9987
+      },
+      {
+        "class": "J35",
+        "sim": 0.9977
+      },
+      {
+        "class": "J20",
+        "sim": 0.997
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9954
+      },
+      {
+        "class": "KF21",
+        "sim": 0.9952
+      },
+      {
+        "class": "F15",
+        "sim": 0.9951
+      },
+      {
+        "class": "F14",
+        "sim": 0.9942
+      },
+      {
+        "class": "F18",
+        "sim": 0.9941
+      }
+    ],
+    "F35": [
+      {
+        "class": "F22",
+        "sim": 0.9987
+      },
+      {
+        "class": "J35",
+        "sim": 0.9978
+      },
+      {
+        "class": "J20",
+        "sim": 0.9969
+      },
+      {
+        "class": "KF21",
+        "sim": 0.9956
+      },
+      {
+        "class": "F18",
+        "sim": 0.9947
+      },
+      {
+        "class": "F15",
+        "sim": 0.9947
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9945
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9944
+      }
+    ],
+    "F4": [
+      {
+        "class": "Mirage2000",
+        "sim": 0.996
+      },
+      {
+        "class": "AV8B",
+        "sim": 0.9958
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9957
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9957
+      },
+      {
+        "class": "Tornado",
+        "sim": 0.9952
+      },
+      {
+        "class": "J10",
+        "sim": 0.995
+      },
+      {
+        "class": "F14",
+        "sim": 0.995
+      },
+      {
+        "class": "F16",
+        "sim": 0.9948
+      }
+    ],
+    "FCK1": [
+      {
+        "class": "F2",
+        "sim": 0.9983
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9975
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9974
+      },
+      {
+        "class": "F16",
+        "sim": 0.9967
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9963
+      },
+      {
+        "class": "T50",
+        "sim": 0.9962
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9961
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.996
+      }
+    ],
+    "H6": [
+      {
+        "class": "Tu95",
+        "sim": 0.9963
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9959
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9954
+      },
+      {
+        "class": "B52",
+        "sim": 0.9944
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9944
+      },
+      {
+        "class": "P3",
+        "sim": 0.9936
+      },
+      {
+        "class": "Su25",
+        "sim": 0.993
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9929
+      }
+    ],
+    "Il76": [
+      {
+        "class": "Y20",
+        "sim": 0.9976
+      },
+      {
+        "class": "An72",
+        "sim": 0.9973
+      },
+      {
+        "class": "H6",
+        "sim": 0.9959
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.9957
+      },
+      {
+        "class": "C17",
+        "sim": 0.9953
+      },
+      {
+        "class": "An124",
+        "sim": 0.9947
+      },
+      {
+        "class": "B52",
+        "sim": 0.9946
+      },
+      {
+        "class": "C1",
+        "sim": 0.9945
+      }
+    ],
+    "J10": [
+      {
+        "class": "Tejas",
+        "sim": 0.9981
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9973
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9969
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9967
+      },
+      {
+        "class": "F16",
+        "sim": 0.9964
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.996
+      },
+      {
+        "class": "JF17",
+        "sim": 0.996
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9956
+      }
+    ],
+    "J20": [
+      {
+        "class": "J35",
+        "sim": 0.9986
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9972
+      },
+      {
+        "class": "F22",
+        "sim": 0.997
+      },
+      {
+        "class": "F35",
+        "sim": 0.9969
+      },
+      {
+        "class": "J10",
+        "sim": 0.9953
+      },
+      {
+        "class": "F14",
+        "sim": 0.9947
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9947
+      },
+      {
+        "class": "Mig29",
+        "sim": 0.9945
+      }
+    ],
+    "J35": [
+      {
+        "class": "J20",
+        "sim": 0.9986
+      },
+      {
+        "class": "F35",
+        "sim": 0.9978
+      },
+      {
+        "class": "F22",
+        "sim": 0.9977
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9963
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9957
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9951
+      },
+      {
+        "class": "J10",
+        "sim": 0.995
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9944
+      }
+    ],
+    "J36": [
+      {
+        "class": "J50",
+        "sim": 0.9972
+      },
+      {
+        "class": "B21",
+        "sim": 0.9922
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9904
+      },
+      {
+        "class": "B2",
+        "sim": 0.9885
+      },
+      {
+        "class": "F117",
+        "sim": 0.9877
+      },
+      {
+        "class": "Su24",
+        "sim": 0.9856
+      },
+      {
+        "class": "WZ9",
+        "sim": 0.9854
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9826
+      }
+    ],
+    "J50": [
+      {
+        "class": "J36",
+        "sim": 0.9972
+      },
+      {
+        "class": "B21",
+        "sim": 0.9924
+      },
+      {
+        "class": "F117",
+        "sim": 0.9919
+      },
+      {
+        "class": "B2",
+        "sim": 0.9916
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9907
+      },
+      {
+        "class": "J20",
+        "sim": 0.9891
+      },
+      {
+        "class": "Su24",
+        "sim": 0.9889
+      },
+      {
+        "class": "J35",
+        "sim": 0.9872
+      }
+    ],
+    "JAS39": [
+      {
+        "class": "Rafale",
+        "sim": 0.9984
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9977
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9974
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9972
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9968
+      },
+      {
+        "class": "F2",
+        "sim": 0.9967
+      },
+      {
+        "class": "F16",
+        "sim": 0.9964
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9957
+      }
+    ],
+    "JF17": [
+      {
+        "class": "Mirage2000",
+        "sim": 0.9976
+      },
+      {
+        "class": "F16",
+        "sim": 0.9976
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9975
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9973
+      },
+      {
+        "class": "F2",
+        "sim": 0.9968
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9968
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9965
+      },
+      {
+        "class": "F15",
+        "sim": 0.9962
+      }
+    ],
+    "JH7": [
+      {
+        "class": "J10",
+        "sim": 0.9973
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9965
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9965
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9965
+      },
+      {
+        "class": "Mig29",
+        "sim": 0.9963
+      },
+      {
+        "class": "F2",
+        "sim": 0.9962
+      },
+      {
+        "class": "Tornado",
+        "sim": 0.9961
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9961
+      }
+    ],
+    "KAAN": [
+      {
+        "class": "KF21",
+        "sim": 0.9951
+      },
+      {
+        "class": "YF23",
+        "sim": 0.9933
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.992
+      },
+      {
+        "class": "F35",
+        "sim": 0.992
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9918
+      },
+      {
+        "class": "X32",
+        "sim": 0.9913
+      },
+      {
+        "class": "J35",
+        "sim": 0.9912
+      },
+      {
+        "class": "F22",
+        "sim": 0.9903
+      }
+    ],
+    "KC135": [
+      {
+        "class": "B52",
+        "sim": 0.9961
+      },
+      {
+        "class": "C17",
+        "sim": 0.9959
+      },
+      {
+        "class": "C5",
+        "sim": 0.9959
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9947
+      },
+      {
+        "class": "P3",
+        "sim": 0.9943
+      },
+      {
+        "class": "C130",
+        "sim": 0.9936
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9935
+      },
+      {
+        "class": "An225",
+        "sim": 0.9932
+      }
+    ],
+    "KF21": [
+      {
+        "class": "F35",
+        "sim": 0.9956
+      },
+      {
+        "class": "F22",
+        "sim": 0.9952
+      },
+      {
+        "class": "KAAN",
+        "sim": 0.9951
+      },
+      {
+        "class": "X32",
+        "sim": 0.9944
+      },
+      {
+        "class": "J35",
+        "sim": 0.9943
+      },
+      {
+        "class": "YF23",
+        "sim": 0.9942
+      },
+      {
+        "class": "F15",
+        "sim": 0.9932
+      },
+      {
+        "class": "JF17",
+        "sim": 0.993
+      }
+    ],
+    "KIZILELMA": [
+      {
+        "class": "XQ58",
+        "sim": 0.9962
+      },
+      {
+        "class": "J35",
+        "sim": 0.9957
+      },
+      {
+        "class": "F35",
+        "sim": 0.9945
+      },
+      {
+        "class": "J20",
+        "sim": 0.9943
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9943
+      },
+      {
+        "class": "U2",
+        "sim": 0.9942
+      },
+      {
+        "class": "SR71",
+        "sim": 0.994
+      },
+      {
+        "class": "B1",
+        "sim": 0.9937
+      }
+    ],
+    "KJ600": [
+      {
+        "class": "E2",
+        "sim": 0.9974
+      },
+      {
+        "class": "US2",
+        "sim": 0.9953
+      },
+      {
+        "class": "A10",
+        "sim": 0.9943
+      },
+      {
+        "class": "V22",
+        "sim": 0.9934
+      },
+      {
+        "class": "C1",
+        "sim": 0.9933
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9929
+      },
+      {
+        "class": "An72",
+        "sim": 0.9926
+      },
+      {
+        "class": "U2",
+        "sim": 0.9925
+      }
+    ],
+    "Ka27": [
+      {
+        "class": "Ka52",
+        "sim": 0.9955
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9953
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9945
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9936
+      },
+      {
+        "class": "Mi26",
+        "sim": 0.9935
+      },
+      {
+        "class": "CH53",
+        "sim": 0.9934
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9926
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9926
+      }
+    ],
+    "Ka52": [
+      {
+        "class": "Mi24",
+        "sim": 0.9968
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9964
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9963
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9958
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9955
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9946
+      },
+      {
+        "class": "CH53",
+        "sim": 0.993
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9928
+      }
+    ],
+    "MQ20": [
+      {
+        "class": "MQ9",
+        "sim": 0.997
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.9944
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9937
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9914
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9905
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9894
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.9892
+      },
+      {
+        "class": "TB2",
+        "sim": 0.9887
+      }
+    ],
+    "MQ25": [
+      {
+        "class": "RQ4",
+        "sim": 0.9959
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9958
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9938
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9938
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9932
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9927
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9921
+      },
+      {
+        "class": "KAAN",
+        "sim": 0.992
+      }
+    ],
+    "MQ28": [
+      {
+        "class": "MQ25",
+        "sim": 0.9958
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.9956
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9949
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9943
+      },
+      {
+        "class": "MQ20",
+        "sim": 0.9937
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9933
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9926
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9925
+      }
+    ],
+    "MQ35": [
+      {
+        "class": "RQ4",
+        "sim": 0.9906
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9896
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9886
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9884
+      },
+      {
+        "class": "E2",
+        "sim": 0.9882
+      },
+      {
+        "class": "V22",
+        "sim": 0.9872
+      },
+      {
+        "class": "TB2",
+        "sim": 0.9865
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.9864
+      }
+    ],
+    "MQ9": [
+      {
+        "class": "RQ4",
+        "sim": 0.9975
+      },
+      {
+        "class": "MQ20",
+        "sim": 0.997
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9951
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9949
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9944
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.9935
+      },
+      {
+        "class": "TB2",
+        "sim": 0.9933
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9932
+      }
+    ],
+    "Mi24": [
+      {
+        "class": "Mi28",
+        "sim": 0.9979
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9977
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9974
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9968
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9954
+      },
+      {
+        "class": "Z21",
+        "sim": 0.9954
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9948
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9945
+      }
+    ],
+    "Mi26": [
+      {
+        "class": "Mi8",
+        "sim": 0.9965
+      },
+      {
+        "class": "CH53",
+        "sim": 0.9951
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9935
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9934
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9925
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9913
+      },
+      {
+        "class": "CH47",
+        "sim": 0.9911
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9898
+      }
+    ],
+    "Mi28": [
+      {
+        "class": "Mi24",
+        "sim": 0.9979
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9967
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9958
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9957
+      },
+      {
+        "class": "Z21",
+        "sim": 0.9951
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9937
+      },
+      {
+        "class": "CH53",
+        "sim": 0.9929
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9927
+      }
+    ],
+    "Mi8": [
+      {
+        "class": "Mi24",
+        "sim": 0.9974
+      },
+      {
+        "class": "Mi26",
+        "sim": 0.9965
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9953
+      },
+      {
+        "class": "Z10",
+        "sim": 0.995
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9945
+      },
+      {
+        "class": "CH53",
+        "sim": 0.994
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9937
+      },
+      {
+        "class": "CH47",
+        "sim": 0.993
+      }
+    ],
+    "Mig29": [
+      {
+        "class": "Su34",
+        "sim": 0.9976
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9973
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9969
+      },
+      {
+        "class": "Su47",
+        "sim": 0.9966
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9963
+      },
+      {
+        "class": "J10",
+        "sim": 0.9955
+      },
+      {
+        "class": "F15",
+        "sim": 0.9952
+      },
+      {
+        "class": "F14",
+        "sim": 0.9951
+      }
+    ],
+    "Mig31": [
+      {
+        "class": "Mig29",
+        "sim": 0.9973
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9968
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9965
+      },
+      {
+        "class": "Su47",
+        "sim": 0.9964
+      },
+      {
+        "class": "Su34",
+        "sim": 0.9963
+      },
+      {
+        "class": "J10",
+        "sim": 0.996
+      },
+      {
+        "class": "F14",
+        "sim": 0.996
+      },
+      {
+        "class": "F15",
+        "sim": 0.9951
+      }
+    ],
+    "Mirage2000": [
+      {
+        "class": "Rafale",
+        "sim": 0.9982
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9976
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9972
+      },
+      {
+        "class": "Tornado",
+        "sim": 0.9968
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9967
+      },
+      {
+        "class": "F16",
+        "sim": 0.9961
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.996
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.996
+      }
+    ],
+    "NH90": [
+      {
+        "class": "CH53",
+        "sim": 0.9961
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9949
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9943
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9935
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9919
+      },
+      {
+        "class": "Ka27",
+        "sim": 0.9919
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9916
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9916
+      }
+    ],
+    "P3": [
+      {
+        "class": "C130",
+        "sim": 0.9973
+      },
+      {
+        "class": "KC135",
+        "sim": 0.9943
+      },
+      {
+        "class": "B52",
+        "sim": 0.9939
+      },
+      {
+        "class": "H6",
+        "sim": 0.9936
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9934
+      },
+      {
+        "class": "An72",
+        "sim": 0.993
+      },
+      {
+        "class": "Y20",
+        "sim": 0.9926
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9923
+      }
+    ],
+    "RQ4": [
+      {
+        "class": "MQ9",
+        "sim": 0.9975
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9959
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9959
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9956
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9954
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.9946
+      },
+      {
+        "class": "TB2",
+        "sim": 0.9946
+      },
+      {
+        "class": "MQ20",
+        "sim": 0.9944
+      }
+    ],
+    "Rafale": [
+      {
+        "class": "JAS39",
+        "sim": 0.9984
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9982
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9981
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9973
+      },
+      {
+        "class": "F16",
+        "sim": 0.997
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9963
+      },
+      {
+        "class": "F2",
+        "sim": 0.9962
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9962
+      }
+    ],
+    "SR71": [
+      {
+        "class": "B1",
+        "sim": 0.9945
+      },
+      {
+        "class": "XB70",
+        "sim": 0.9944
+      },
+      {
+        "class": "YF23",
+        "sim": 0.9941
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.994
+      },
+      {
+        "class": "Vulcan",
+        "sim": 0.9936
+      },
+      {
+        "class": "U2",
+        "sim": 0.9932
+      },
+      {
+        "class": "F117",
+        "sim": 0.993
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9923
+      }
+    ],
+    "Su24": [
+      {
+        "class": "Tu22M",
+        "sim": 0.9977
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9969
+      },
+      {
+        "class": "J10",
+        "sim": 0.995
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.994
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9933
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9933
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.993
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9928
+      }
+    ],
+    "Su25": [
+      {
+        "class": "J10",
+        "sim": 0.9969
+      },
+      {
+        "class": "Su24",
+        "sim": 0.9969
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9951
+      },
+      {
+        "class": "JH7",
+        "sim": 0.995
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.995
+      },
+      {
+        "class": "Su34",
+        "sim": 0.9949
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9945
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9945
+      }
+    ],
+    "Su34": [
+      {
+        "class": "Mig29",
+        "sim": 0.9976
+      },
+      {
+        "class": "Su57",
+        "sim": 0.9975
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9963
+      },
+      {
+        "class": "Su47",
+        "sim": 0.9957
+      },
+      {
+        "class": "J10",
+        "sim": 0.9955
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9953
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9949
+      },
+      {
+        "class": "J20",
+        "sim": 0.9939
+      }
+    ],
+    "Su47": [
+      {
+        "class": "Mig29",
+        "sim": 0.9966
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9964
+      },
+      {
+        "class": "Su57",
+        "sim": 0.996
+      },
+      {
+        "class": "Su34",
+        "sim": 0.9957
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9942
+      },
+      {
+        "class": "F14",
+        "sim": 0.9918
+      },
+      {
+        "class": "J20",
+        "sim": 0.9918
+      },
+      {
+        "class": "J10",
+        "sim": 0.9917
+      }
+    ],
+    "Su57": [
+      {
+        "class": "Su34",
+        "sim": 0.9975
+      },
+      {
+        "class": "J20",
+        "sim": 0.9972
+      },
+      {
+        "class": "Mig29",
+        "sim": 0.9969
+      },
+      {
+        "class": "Mig31",
+        "sim": 0.9968
+      },
+      {
+        "class": "J35",
+        "sim": 0.9963
+      },
+      {
+        "class": "Su47",
+        "sim": 0.996
+      },
+      {
+        "class": "F22",
+        "sim": 0.9954
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9951
+      }
+    ],
+    "T50": [
+      {
+        "class": "FCK1",
+        "sim": 0.9962
+      },
+      {
+        "class": "F2",
+        "sim": 0.9958
+      },
+      {
+        "class": "F16",
+        "sim": 0.9952
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9947
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9946
+      },
+      {
+        "class": "F18",
+        "sim": 0.994
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9934
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.9932
+      }
+    ],
+    "TB001": [
+      {
+        "class": "WZ10",
+        "sim": 0.9959
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.9954
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9953
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9951
+      },
+      {
+        "class": "U2",
+        "sim": 0.9938
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9925
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9923
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.9922
+      }
+    ],
+    "TB2": [
+      {
+        "class": "RQ4",
+        "sim": 0.9946
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9942
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9933
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9914
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9895
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9893
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.989
+      },
+      {
+        "class": "MQ20",
+        "sim": 0.9887
+      }
+    ],
+    "Tejas": [
+      {
+        "class": "J10",
+        "sim": 0.9981
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9969
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9965
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9962
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9961
+      },
+      {
+        "class": "Mirage2000",
+        "sim": 0.996
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9957
+      },
+      {
+        "class": "F16",
+        "sim": 0.9953
+      }
+    ],
+    "Tornado": [
+      {
+        "class": "Mirage2000",
+        "sim": 0.9968
+      },
+      {
+        "class": "Rafale",
+        "sim": 0.9962
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9961
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9958
+      },
+      {
+        "class": "FCK1",
+        "sim": 0.9957
+      },
+      {
+        "class": "F2",
+        "sim": 0.9957
+      },
+      {
+        "class": "JAS39",
+        "sim": 0.9956
+      },
+      {
+        "class": "JF17",
+        "sim": 0.9955
+      }
+    ],
+    "Tu160": [
+      {
+        "class": "B1",
+        "sim": 0.996
+      },
+      {
+        "class": "H6",
+        "sim": 0.9954
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.9954
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9944
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9943
+      },
+      {
+        "class": "B52",
+        "sim": 0.9937
+      },
+      {
+        "class": "Vulcan",
+        "sim": 0.9934
+      },
+      {
+        "class": "U2",
+        "sim": 0.9934
+      }
+    ],
+    "Tu22M": [
+      {
+        "class": "Su24",
+        "sim": 0.9977
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.9958
+      },
+      {
+        "class": "Su25",
+        "sim": 0.9945
+      },
+      {
+        "class": "H6",
+        "sim": 0.9944
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9943
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9932
+      },
+      {
+        "class": "J10",
+        "sim": 0.9927
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9922
+      }
+    ],
+    "Tu95": [
+      {
+        "class": "H6",
+        "sim": 0.9963
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9958
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9957
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9954
+      },
+      {
+        "class": "Su25",
+        "sim": 0.995
+      },
+      {
+        "class": "Su24",
+        "sim": 0.994
+      },
+      {
+        "class": "B52",
+        "sim": 0.9938
+      },
+      {
+        "class": "P3",
+        "sim": 0.9921
+      }
+    ],
+    "U2": [
+      {
+        "class": "B1",
+        "sim": 0.9954
+      },
+      {
+        "class": "B52",
+        "sim": 0.995
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.9942
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9942
+      },
+      {
+        "class": "TB001",
+        "sim": 0.9938
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9934
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9932
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.9929
+      }
+    ],
+    "UH60": [
+      {
+        "class": "CH53",
+        "sim": 0.9963
+      },
+      {
+        "class": "Z10",
+        "sim": 0.9956
+      },
+      {
+        "class": "NH90",
+        "sim": 0.9949
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9945
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9942
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9942
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9939
+      },
+      {
+        "class": "CH47",
+        "sim": 0.9935
+      }
+    ],
+    "US2": [
+      {
+        "class": "KJ600",
+        "sim": 0.9953
+      },
+      {
+        "class": "E2",
+        "sim": 0.9946
+      },
+      {
+        "class": "C1",
+        "sim": 0.9943
+      },
+      {
+        "class": "AG600",
+        "sim": 0.9938
+      },
+      {
+        "class": "An22",
+        "sim": 0.9937
+      },
+      {
+        "class": "Be200",
+        "sim": 0.9932
+      },
+      {
+        "class": "C390",
+        "sim": 0.9923
+      },
+      {
+        "class": "An72",
+        "sim": 0.9922
+      }
+    ],
+    "V22": [
+      {
+        "class": "V280",
+        "sim": 0.9942
+      },
+      {
+        "class": "E2",
+        "sim": 0.9941
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.9934
+      },
+      {
+        "class": "US2",
+        "sim": 0.9908
+      },
+      {
+        "class": "A10",
+        "sim": 0.9907
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9903
+      },
+      {
+        "class": "CH47",
+        "sim": 0.9902
+      },
+      {
+        "class": "CH53",
+        "sim": 0.9899
+      }
+    ],
+    "V280": [
+      {
+        "class": "V22",
+        "sim": 0.9942
+      },
+      {
+        "class": "E2",
+        "sim": 0.9924
+      },
+      {
+        "class": "KJ600",
+        "sim": 0.9914
+      },
+      {
+        "class": "C390",
+        "sim": 0.9895
+      },
+      {
+        "class": "US2",
+        "sim": 0.9894
+      },
+      {
+        "class": "A10",
+        "sim": 0.9881
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.988
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9877
+      }
+    ],
+    "Vulcan": [
+      {
+        "class": "B1",
+        "sim": 0.9956
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9936
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9934
+      },
+      {
+        "class": "Tejas",
+        "sim": 0.9931
+      },
+      {
+        "class": "J20",
+        "sim": 0.9931
+      },
+      {
+        "class": "JH7",
+        "sim": 0.993
+      },
+      {
+        "class": "J10",
+        "sim": 0.9928
+      },
+      {
+        "class": "EF2000",
+        "sim": 0.9925
+      }
+    ],
+    "WZ10": [
+      {
+        "class": "TB001",
+        "sim": 0.9959
+      },
+      {
+        "class": "WZ7",
+        "sim": 0.9947
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.9946
+      },
+      {
+        "class": "MQ9",
+        "sim": 0.9935
+      },
+      {
+        "class": "AKINCI",
+        "sim": 0.993
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9925
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9921
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9914
+      }
+    ],
+    "WZ7": [
+      {
+        "class": "WZ10",
+        "sim": 0.9947
+      },
+      {
+        "class": "Su24",
+        "sim": 0.9933
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9932
+      },
+      {
+        "class": "B21",
+        "sim": 0.992
+      },
+      {
+        "class": "Tu95",
+        "sim": 0.9917
+      },
+      {
+        "class": "WZ9",
+        "sim": 0.9912
+      },
+      {
+        "class": "J50",
+        "sim": 0.9907
+      },
+      {
+        "class": "B2",
+        "sim": 0.9907
+      }
+    ],
+    "WZ9": [
+      {
+        "class": "WZ7",
+        "sim": 0.9912
+      },
+      {
+        "class": "B21",
+        "sim": 0.9867
+      },
+      {
+        "class": "J36",
+        "sim": 0.9854
+      },
+      {
+        "class": "WZ10",
+        "sim": 0.984
+      },
+      {
+        "class": "B2",
+        "sim": 0.984
+      },
+      {
+        "class": "Tu22M",
+        "sim": 0.9835
+      },
+      {
+        "class": "J50",
+        "sim": 0.9833
+      },
+      {
+        "class": "Su24",
+        "sim": 0.9814
+      }
+    ],
+    "X29": [
+      {
+        "class": "XB70",
+        "sim": 0.9923
+      },
+      {
+        "class": "U2",
+        "sim": 0.9922
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9917
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9914
+      },
+      {
+        "class": "F4",
+        "sim": 0.9909
+      },
+      {
+        "class": "JH7",
+        "sim": 0.9908
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9908
+      },
+      {
+        "class": "B1",
+        "sim": 0.9908
+      }
+    ],
+    "X32": [
+      {
+        "class": "KF21",
+        "sim": 0.9944
+      },
+      {
+        "class": "F35",
+        "sim": 0.9933
+      },
+      {
+        "class": "YF23",
+        "sim": 0.9928
+      },
+      {
+        "class": "F22",
+        "sim": 0.9926
+      },
+      {
+        "class": "J35",
+        "sim": 0.9921
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9921
+      },
+      {
+        "class": "J20",
+        "sim": 0.9918
+      },
+      {
+        "class": "KAAN",
+        "sim": 0.9913
+      }
+    ],
+    "XB70": [
+      {
+        "class": "SR71",
+        "sim": 0.9944
+      },
+      {
+        "class": "Tu160",
+        "sim": 0.9932
+      },
+      {
+        "class": "X29",
+        "sim": 0.9923
+      },
+      {
+        "class": "U2",
+        "sim": 0.9915
+      },
+      {
+        "class": "B1",
+        "sim": 0.991
+      },
+      {
+        "class": "YF23",
+        "sim": 0.9909
+      },
+      {
+        "class": "Vulcan",
+        "sim": 0.9903
+      },
+      {
+        "class": "XQ58",
+        "sim": 0.9902
+      }
+    ],
+    "XQ58": [
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9962
+      },
+      {
+        "class": "MQ25",
+        "sim": 0.9938
+      },
+      {
+        "class": "MQ28",
+        "sim": 0.9933
+      },
+      {
+        "class": "U2",
+        "sim": 0.9927
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9923
+      },
+      {
+        "class": "B2",
+        "sim": 0.992
+      },
+      {
+        "class": "RQ4",
+        "sim": 0.992
+      },
+      {
+        "class": "J35",
+        "sim": 0.9917
+      }
+    ],
+    "Y20": [
+      {
+        "class": "C17",
+        "sim": 0.9981
+      },
+      {
+        "class": "Il76",
+        "sim": 0.9976
+      },
+      {
+        "class": "C5",
+        "sim": 0.9969
+      },
+      {
+        "class": "C390",
+        "sim": 0.9961
+      },
+      {
+        "class": "C1",
+        "sim": 0.9956
+      },
+      {
+        "class": "An72",
+        "sim": 0.9953
+      },
+      {
+        "class": "A400M",
+        "sim": 0.9952
+      },
+      {
+        "class": "C2",
+        "sim": 0.9951
+      }
+    ],
+    "YF23": [
+      {
+        "class": "KF21",
+        "sim": 0.9942
+      },
+      {
+        "class": "SR71",
+        "sim": 0.9941
+      },
+      {
+        "class": "F35",
+        "sim": 0.9938
+      },
+      {
+        "class": "J35",
+        "sim": 0.9934
+      },
+      {
+        "class": "KAAN",
+        "sim": 0.9933
+      },
+      {
+        "class": "X32",
+        "sim": 0.9928
+      },
+      {
+        "class": "F22",
+        "sim": 0.9928
+      },
+      {
+        "class": "KIZILELMA",
+        "sim": 0.9922
+      }
+    ],
+    "Z10": [
+      {
+        "class": "Z19",
+        "sim": 0.9981
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9977
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9971
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9967
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9964
+      },
+      {
+        "class": "Z21",
+        "sim": 0.9964
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9956
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.995
+      }
+    ],
+    "Z19": [
+      {
+        "class": "Z10",
+        "sim": 0.9981
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9954
+      },
+      {
+        "class": "Z21",
+        "sim": 0.9953
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9946
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9943
+      },
+      {
+        "class": "UH60",
+        "sim": 0.9939
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9928
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9927
+      }
+    ],
+    "Z21": [
+      {
+        "class": "Z10",
+        "sim": 0.9964
+      },
+      {
+        "class": "Mi24",
+        "sim": 0.9954
+      },
+      {
+        "class": "Z19",
+        "sim": 0.9953
+      },
+      {
+        "class": "Mi28",
+        "sim": 0.9951
+      },
+      {
+        "class": "AH64",
+        "sim": 0.9933
+      },
+      {
+        "class": "UH60",
+        "sim": 0.993
+      },
+      {
+        "class": "Mi8",
+        "sim": 0.9919
+      },
+      {
+        "class": "Ka52",
+        "sim": 0.9919
+      }
+    ]
+  }
+}

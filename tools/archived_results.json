@@ -1,0 +1,10 @@
+{
+  "_purpose": "Fallback measurements for rows whose run directory is temporarily unavailable. The collector prefers a live runs/*/eval_test.json and only reads this file when that is missing, and prints a loud note when it does. Every entry records why the artifact is absent so a number here is never mistaken for a fresh measurement.",
+  "baseline_vit_b_16": {
+    "114类Top-1": "55.10",
+    "103类军机Top-1": "56.95",
+    "Macro-F1": "49.27",
+    "Top-5": "79.88",
+    "_provenance": "ViT-B/16, Region RGB 3 通道, 224x224, lr 3e-4, batch 64, 30 epochs, seed 0. Measured 2026-09-26 and written into the V8 fill. The run directory was overwritten on 2026-09-28 by the lr=1e-4 diagnostic because --tag was wired into evaluate_only but not train_baseline; that diagnostic is preserved as runs/baseline_vit_b_16_lr1e4 (test Top-1 64.76 / Macro-F1 60.11). The original recipe is being re-run to restore the artifact; until it finishes, these are the numbers of record for the RGB row."
+  }
+}

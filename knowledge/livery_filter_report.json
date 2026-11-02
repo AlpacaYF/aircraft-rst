@@ -1,0 +1,4612 @@
+{
+  "stats": {
+    "classes_touched": 111,
+    "feat_dropped": 170,
+    "feat_kept": 542
+  },
+  "per_class": {
+    "A10": [
+      {
+        "field": "discriminative_features",
+        "original": "机头有鲨鱼嘴涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头有鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼上可见“ANG”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼上可见“ANG”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头锥形，有鲨鱼嘴涂装，下方可见武器发射口",
+        "kept": "机头锥形，下方可见武器发射口",
+        "dropped": [
+          {
+            "text": "有鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-16: 无机翼下挂架，无鲨鱼嘴涂装，进气道位于机身两侧",
+        "kept": "与F-16: 无机翼下挂架，无鲨鱼嘴涂装，进气道位于机身两侧",
+        "dropped": [
+          {
+            "text": "无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-52: 无鲨鱼嘴涂装，机翼下挂架数量和布局不同，尾翼为常规平尾",
+        "kept": "与B-52: 无鲨鱼嘴涂装，机翼下挂架数量和布局不同，尾翼为常规平尾",
+        "dropped": [
+          {
+            "text": "无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-15: 无鲨鱼嘴涂装，进气道位于机身两侧，尾翼为常规平尾",
+        "kept": "与F-15: 无鲨鱼嘴涂装，进气道位于机身两侧，尾翼为常规平尾",
+        "dropped": [
+          {
+            "text": "无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与苏-25: 无鲨鱼嘴涂装，机翼下挂架数量和布局不同，尾翼为常规平尾",
+        "kept": "与苏-25: 无鲨鱼嘴涂装，机翼下挂架数量和布局不同，尾翼为常规平尾",
+        "dropped": [
+          {
+            "text": "无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与A-10: 无鲨鱼嘴涂装，进气道位于机身两侧，尾翼为常规平尾",
+        "kept": "与A-10: 无鲨鱼嘴涂装，进气道位于机身两侧，尾翼为常规平尾",
+        "dropped": [
+          {
+            "text": "无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双引擎攻击机从上方视角飞行，机头有鲨鱼嘴涂装，机翼下挂载武器，正从机腹下方发射导弹。",
+        "kept": "机翼下挂载武器",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双引擎攻击机从上方视角飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机头有鲨鱼嘴涂装",
+            "rule": "livery"
+          },
+          {
+            "text": "正从机腹下方发射导弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "A400M": [
+      {
+        "field": "discriminative_features",
+        "original": "四台发动机，每侧机翼翼根处各两台，安装在吊舱内",
+        "kept": "四台发动机，每侧机翼翼根处各两台",
+        "dropped": [
+          {
+            "text": "安装在吊舱内",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "发动机数量与布局",
+        "original": "4台，每侧机翼翼根处各2台，安装在吊舱内",
+        "kept": "4台，每侧机翼翼根处各2台",
+        "dropped": [
+          {
+            "text": "安装在吊舱内",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色军用运输机在地面或空中，其四台涡轮螺旋桨发动机位于高置机翼上，机翼下有明显的吊舱式结构，尾翼为T型布局。",
+        "kept": "其四台涡轮螺旋桨发动机位于高置机翼上，机翼下有明显的吊舱式结构，尾翼为T型布局",
+        "dropped": [
+          {
+            "text": "一架灰色军用运输机在地面或空中",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AG600": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“AG600”标识",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“AG600”标识",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装包含红色和黄色条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装包含红色和黄色条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面印有“中航通飞华南飞机工业有限公司”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面印有“中航通飞华南飞机工业有限公司”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型双发涡轮螺旋桨水陆两栖飞机，机身涂装含红黄条纹，机头标有AG600字样，停在地面或正在滑行。",
+        "kept": "一架大型双发涡轮螺旋桨水陆两栖飞机",
+        "dropped": [
+          {
+            "text": "机身涂装含红黄条纹",
+            "rule": "livery"
+          },
+          {
+            "text": "机头标有AG600字样",
+            "rule": "livery"
+          },
+          {
+            "text": "停在地面或正在滑行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AH64": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为深色迷彩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为深色迷彩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架军用直升机在蓝天背景下飞行，机身呈深色，旋翼高速旋转，尾部有尾桨。",
+        "kept": "旋翼高速旋转，尾部有尾桨",
+        "dropped": [
+          {
+            "text": "一架军用直升机在蓝天背景下飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机身呈深色",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AKINCI": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“BAYRAKTAR AKINCI”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“BAYRAKTAR AKINCI”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "两架大型多旋翼无人机在蓝天中编队飞行，机身呈浅灰色，机翼宽大且后掠，尾翼为T型布局。",
+        "kept": "两架大型多旋翼无人机在蓝天中编队飞行，机翼宽大且后掠，尾翼为T型布局",
+        "dropped": [
+          {
+            "text": "机身呈浅灰色",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AV8B": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多个大型圆柱形副油箱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载多个大型圆柱形副油箱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾垂尾根部有黄色圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾垂尾根部有黄色圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的AV-8B攻击机从后上方视角拍摄，机翼下挂载多个武器舱和副油箱，正飞越云层。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的AV-8B攻击机从后上方视角拍摄",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多个武器舱和副油箱",
+            "rule": "loadout"
+          },
+          {
+            "text": "正飞越云层",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AirbusA320": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼为T型布局，垂直尾翼上部有红色或蓝色涂装",
+        "kept": "尾翼为T型布局",
+        "dropped": [
+          {
+            "text": "垂直尾翼上部有红色或蓝色涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三张图片分别展示了涂有鹰头彩绘、Delta航空涂装和VietjetAir广告的同型号客机，均停在机场地面。",
+        "kept": "三张图片分别展示了涂有鹰头彩绘",
+        "dropped": [
+          {
+            "text": "Delta航空涂装和VietjetAir广告的同型号客机",
+            "rule": "livery"
+          },
+          {
+            "text": "均停在机场地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AirbusA330": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“DELTA”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“DELTA”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "垂直尾翼有红蓝涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "垂直尾翼有红蓝涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架白色涂装的双引擎宽体客机在蓝天中飞行，机翼下挂载两台发动机，尾部有红色和蓝色涂装的垂直尾翼。",
+        "kept": "机翼下挂载两台发动机",
+        "dropped": [
+          {
+            "text": "一架白色涂装的双引擎宽体客机在蓝天中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "尾部有红色和蓝色涂装的垂直尾翼",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AirbusA340": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色涂装标识",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色涂装标识",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架白色涂装的四引擎宽体客机停在机场停机坪，或在空中飞行，机身上有红色标识，正对镜头。",
+        "kept": "或在空中飞行，正对镜头",
+        "dropped": [
+          {
+            "text": "一架白色涂装的四引擎宽体客机停在机场停机坪",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有红色标识",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AirbusA350": [
+      {
+        "field": "overall_description",
+        "original": "三张图片分别展示了不同涂装的空客A350客机在飞行或地面停放时的侧面轮廓，机翼后掠且翼尖有向上翘起的翼梢小翼，发动机位于机翼下方。",
+        "kept": "机翼后掠且翼尖有向上翘起的翼梢小翼，发动机位于机翼下方",
+        "dropped": [
+          {
+            "text": "三张图片分别展示了不同涂装的空客A350客机在飞行或地面停放时的侧面轮廓",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "AirbusA380": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有大型文字涂装，如“Not Too Late For Coral Reefs”或“PROUD PARTNER OF GRAND SLAM TENNIS”",
+        "kept": "如“Not Too Late For Coral Reefs”或“PROUD PARTNER OF GRAND SLAM TENNIS”",
+        "dropped": [
+          {
+            "text": "机身侧面有大型文字涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有环保主题涂装的大型四发宽体客机正在空中飞行，另一架浅蓝色涂装的同型号飞机停在停机坪，第三张图为机身侧面印有“PROUD PARTNER OF GRAND SLAM TENNIS”字样的局部特写。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架涂有环保主题涂装的大型四发宽体客机正在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "另一架浅蓝色涂装的同型号飞机停在停机坪",
+            "rule": "livery"
+          },
+          {
+            "text": "第三张图为机身侧面印有“PROUD PARTNER OF GRAND SLAM TENNIS”字样的局部特写",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "An124": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼高置，翼尖有红色标记",
+        "kept": "机翼高置",
+        "dropped": [
+          {
+            "text": "翼尖有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有蓝色条纹和“Volga-Dnepr”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有蓝色条纹和“Volga-Dnepr”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾有“VOLGA-DNEPR”和“INTERNATIONAL CARGO TRANSPORTER”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾有“VOLGA-DNEPR”和“INTERNATIONAL CARGO TRANSPORTER”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型运输机停在停机坪，其后部舱门打开，正由地面设备进行货物装卸作业。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架大型运输机停在停机坪",
+            "rule": "livery"
+          },
+          {
+            "text": "正由地面设备进行货物装卸作业",
+            "rule": "livery"
+          },
+          {
+            "text": "其后部舱门打开",
+            "rule": "orphan_modifier"
+          }
+        ]
+      }
+    ],
+    "An22": [
+      {
+        "field": "discriminative_features",
+        "original": "螺旋桨为四叶，桨毂为深色",
+        "kept": "螺旋桨为四叶",
+        "dropped": [
+          {
+            "text": "桨毂为深色",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "An225": [
+      {
+        "field": "discriminative_features",
+        "original": "机鼻为尖锐锥形，前部有黄色涂装条带",
+        "kept": "机鼻为尖锐锥形",
+        "dropped": [
+          {
+            "text": "前部有黄色涂装条带",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐锥形机鼻，前部有黄色涂装条带",
+        "kept": "尖锐锥形机鼻",
+        "dropped": [
+          {
+            "text": "前部有黄色涂装条带",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型白色运输机从下方仰视，机翼宽大，装有六台发动机，正飞越蓝天白云。",
+        "kept": "机翼宽大，装有六台发动机，正飞越蓝天白云",
+        "dropped": [
+          {
+            "text": "一架大型白色运输机从下方仰视",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "An72": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼高置且翼尖有红色标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼高置且翼尖有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "T型尾翼结构，垂直尾翼上部为黑色",
+        "kept": "T型尾翼结构",
+        "dropped": [
+          {
+            "text": "垂直尾翼上部为黑色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机鼻前部有绿色条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机鼻前部有绿色条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有黑色条纹贯穿机翼与机身连接处",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有黑色条纹贯穿机翼与机身连接处",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "高置下单翼，翼尖有红色标记",
+        "kept": "高置下单翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "T型尾翼，垂直尾翼上部为黑色，下部为白色",
+        "kept": "T型尾翼",
+        "dropped": [
+          {
+            "text": "垂直尾翼上部为黑色",
+            "rule": "livery"
+          },
+          {
+            "text": "下部为白色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机鼻为白色，前部有绿色条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机鼻为白色",
+            "rule": "livery"
+          },
+          {
+            "text": "前部有绿色条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架白色涂装的An72运输机在蓝天背景下从下方视角拍摄，机翼和尾翼上可见UN标识及注册号RA-74044。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架白色涂装的An72运输机在蓝天背景下从下方视角拍摄",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼和尾翼上可见UN标识及注册号RA-74044",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "B1": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为灰色或迷彩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为灰色或迷彩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的B-1轰炸机从下方仰视，背景为晴朗蓝天，机翼下可见四台发动机。",
+        "kept": "机翼下可见四台发动机",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的B-1轰炸机从下方仰视",
+            "rule": "livery"
+          },
+          {
+            "text": "背景为晴朗蓝天",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "B2": [
+      {
+        "field": "discriminative_features",
+        "original": "机身表面光滑，呈深黑色",
+        "kept": "机身表面光滑",
+        "dropped": [
+          {
+            "text": "呈深黑色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架黑色的隐形轰炸机停在跑道上，或在云层上空飞行，其独特的飞翼布局和光滑表面在不同视角下清晰可见。",
+        "kept": "其独特的飞翼布局和光滑表面在不同视角下清晰可见",
+        "dropped": [
+          {
+            "text": "一架黑色的隐形轰炸机停在跑道上",
+            "rule": "livery"
+          },
+          {
+            "text": "或在云层上空飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "B21": [
+      {
+        "field": "overall_description",
+        "original": "一架具有无尾飞翼布局的隐形飞机在蓝天背景下飞行，机翼与机身融合，尾部有细长的垂直稳定面。",
+        "kept": "机翼与机身融合，尾部有细长的垂直稳定面",
+        "dropped": [
+          {
+            "text": "一架具有无尾飞翼布局的隐形飞机在蓝天背景下飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "B52": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼为常规布局，垂直尾翼顶部有橙色警示灯",
+        "kept": "尾翼为常规布局",
+        "dropped": [
+          {
+            "text": "垂直尾翼顶部有橙色警示灯",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与A-10: A-10为低空攻击机，机翼下挂载大量对地武器，机头有大口径机炮",
+        "kept": "与A-10: A-10为低空攻击机，机翼下挂载大量对地武器，机头有大口径机炮",
+        "dropped": [
+          {
+            "text": "机头有大口径机炮",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-15: F-15为双发战斗机，机翼下挂载导弹，机头有雷达罩，无大型吊舱式发动机",
+        "kept": "与F-15: F-15为双发战斗机，机翼下挂载导弹，机头有雷达罩，无大型吊舱式发动机",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与KC-135: KC-135为加油机，机翼下挂载加油吊舱，机头有加油探头",
+        "kept": "与KC-135: KC-135为加油机，机翼下挂载加油吊舱，机头有加油探头",
+        "dropped": [
+          {
+            "text": "机翼下挂载加油吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型八引擎战略轰炸机从下方仰视，机翼下挂载多个发动机吊舱，背景为天空或地面。",
+        "kept": "一架大型八引擎战略轰炸机从下方仰视，机翼下挂载多个发动机吊舱",
+        "dropped": [
+          {
+            "text": "背景为天空或地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Be200": [
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "高置上单翼，翼尖有红色端帽",
+        "kept": "高置上单翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色端帽",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing737": [
+      {
+        "field": "discriminative_features",
+        "original": "垂直尾翼上部有红色或橙色涂装条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "垂直尾翼上部有红色或橙色涂装条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三张图片分别展示了停在地面的白色涂装、空中飞行的橙色涂装及停在地面的蓝色涂装波音737客机，均可见其典型窄体双发布局。",
+        "kept": "均可见其典型窄体双发布局",
+        "dropped": [
+          {
+            "text": "三张图片分别展示了停在地面的白色涂装",
+            "rule": "livery"
+          },
+          {
+            "text": "空中飞行的橙色涂装及停在地面的蓝色涂装波音737客机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing747": [
+      {
+        "field": "overall_description",
+        "original": "一架波音747飞机从不同角度拍摄：俯视停在跑道上、空中飞行、以及水上迫降后沉没。",
+        "kept": "空中飞行，以及水上迫降后沉没",
+        "dropped": [
+          {
+            "text": "一架波音747飞机从不同角度拍摄：俯视停在跑道上",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing757": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“FarCargo”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“FarCargo”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为蓝白或黄白",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为蓝白或黄白",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾有DHL标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾有DHL标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三张图片分别展示了涂有FarCargo、无涂装和DHL标志的波音757飞机，从不同角度拍摄，均呈现双发、高置发动机、T型尾翼的典型布局。",
+        "kept": "三张图片分别展示了涂有FarCargo，从不同角度拍摄，均呈现双发，高置发动机，T型尾翼的典型布局",
+        "dropped": [
+          {
+            "text": "无涂装和DHL标志的波音757飞机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing767": [
+      {
+        "field": "discriminative_features",
+        "original": "尾部有红色圆形标志和JAL字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾部有红色圆形标志和JAL字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头有“Prins Pieter-Christiaan”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头有“Prins Pieter-Christiaan”字样",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing777": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为蓝绿色与白色相间",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为蓝绿色与白色相间",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架停在停机坪上的波音777客机，机身涂装为蓝绿色与白色相间，机翼下挂载两台大型发动机，机头前方可见登机桥。",
+        "kept": "机翼下挂载两台大型发动机，机头前方可见登机桥",
+        "dropped": [
+          {
+            "text": "一架停在停机坪上的波音777客机",
+            "rule": "livery"
+          },
+          {
+            "text": "机身涂装为蓝绿色与白色相间",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Boeing787": [
+      {
+        "field": "discriminative_features",
+        "original": "机尾垂直尾翼上带有航空公司标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾垂直尾翼上带有航空公司标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三架白色涂装的波音787客机，分别在蓝天中飞行或停在机场地面，机身带有不同航空公司的标志和涂装。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "三架白色涂装的波音787客机",
+            "rule": "livery"
+          },
+          {
+            "text": "分别在蓝天中飞行或停在机场地面",
+            "rule": "livery"
+          },
+          {
+            "text": "机身带有不同航空公司的标志和涂装",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "C1": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载两个吊舱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载两个吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾有圆形徽标和编号8501",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾有圆形徽标和编号8501",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红蓝条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红蓝条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "后掠式下单翼，翼下挂载吊舱",
+        "kept": "后掠式下单翼",
+        "dropped": [
+          {
+            "text": "翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与伊尔-76: 机翼下挂载吊舱，伊尔-76无",
+        "kept": "与伊尔-76: 机翼下挂载吊舱，伊尔-76无",
+        "dropped": [
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与安-12: 机翼下挂载吊舱，安-12无",
+        "kept": "与安-12: 机翼下挂载吊舱，安-12无",
+        "dropped": [
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与C-5: 机翼下挂载吊舱，C-5无",
+        "kept": "与C-5: 机翼下挂载吊舱，C-5无",
+        "dropped": [
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与C-17: 机翼下挂载吊舱，C-17无",
+        "kept": "与C-17: 机翼下挂载吊舱，C-17无",
+        "dropped": [
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与运-20: 机翼下挂载吊舱，运-20无",
+        "kept": "与运-20: 机翼下挂载吊舱，运-20无",
+        "dropped": [
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架白色涂装、带有红蓝条纹的四发涡轮螺旋桨运输机正在蓝天中飞行，机尾有圆形徽标和编号8501，机翼下挂载吊舱，机头下方伸出探杆。",
+        "kept": "机头下方伸出探杆",
+        "dropped": [
+          {
+            "text": "一架白色涂装",
+            "rule": "livery"
+          },
+          {
+            "text": "带有红蓝条纹的四发涡轮螺旋桨运输机正在蓝天中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机尾有圆形徽标和编号8501",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载吊舱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "C130": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“U.S. AIR FORCE”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“U.S. AIR FORCE”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼翼尖有“MARINES”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼翼尖有“MARINES”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与C-130J: 无明显差异，但图中飞机涂装为灰色，非C-130J常见深色涂装",
+        "kept": "与C-130J: 无明显差异，但图中飞机涂装为灰色，非C-130J常见深色涂装",
+        "dropped": [
+          {
+            "text": "但图中飞机涂装为灰色",
+            "rule": "livery"
+          },
+          {
+            "text": "非C-130J常见深色涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的四引擎螺旋桨军用运输机停在地面，前景有粉色花枝遮挡，背景有高杆灯；另一架同型号飞机在空中飞行，机翼下挂有吊索；第三张为夜间拍摄，显示发动机喷口喷射火焰。",
+        "kept": "前景有粉色花枝遮挡，另一架同型号飞机在空中飞行，机翼下挂有吊索，第三张为夜间拍摄，显示发动机喷口喷射火焰",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的四引擎螺旋桨军用运输机停在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "背景有高杆灯",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "C17": [
+      {
+        "field": "discriminative_features",
+        "original": "部分图片可见机翼下挂载的烟雾弹发射装置",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "部分图片可见机翼下挂载的烟雾弹发射装置",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼上可见英国皇家空军圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼上可见英国皇家空军圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼末端可见“USAF”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼末端可见“USAF”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架四引擎大型军用运输机在蓝天中飞行，机翼下挂载多个挂架，部分图片显示其正在释放大量白色烟雾弹。",
+        "kept": "一架四引擎大型军用运输机在蓝天中飞行，机翼下挂载多个挂架",
+        "dropped": [
+          {
+            "text": "部分图片显示其正在释放大量白色烟雾弹",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "C2": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼和尾翼上各有一个红色圆形标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼和尾翼上各有一个红色圆形标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的大型军用运输机在蓝天中飞行，机翼下挂载两台发动机，机尾有双垂直尾翼，机翼和尾翼上可见红色圆形标志。",
+        "kept": "机翼下挂载两台发动机，机尾有双垂直尾翼",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的大型军用运输机在蓝天中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼和尾翼上可见红色圆形标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "C390": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有绿色迷彩涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有绿色迷彩涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上标有“KC-390”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上标有“KC-390”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与波音737: 无客舱窗户，机身涂装为军用迷彩",
+        "kept": "与波音737: 无客舱窗户，机身涂装为军用迷彩",
+        "dropped": [
+          {
+            "text": "机身涂装为军用迷彩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架军用运输机在晴朗蓝天中飞行，机身下挂载着一个绿色的充气式减速伞，机翼下可见两台发动机。",
+        "kept": "一架军用运输机在晴朗蓝天中飞行，机翼下可见两台发动机",
+        "dropped": [
+          {
+            "text": "机身下挂载着一个绿色的充气式减速伞",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "C5": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼为T型布局，垂直尾翼上标有“USAF”字样",
+        "kept": "尾翼为T型布局",
+        "dropped": [
+          {
+            "text": "垂直尾翼上标有“USAF”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面标有“AIR MOBILITY COMMAND”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面标有“AIR MOBILITY COMMAND”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型军用运输机在不同场景下展示，包括低空飞行、地面装卸和机头特写，机头灯亮起，机舱门打开装载直升机。",
+        "kept": "一架大型军用运输机在不同场景下展示，包括低空飞行，机头灯亮起，机舱门打开装载直升机",
+        "dropped": [
+          {
+            "text": "地面装卸和机头特写",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "CH47": [
+      {
+        "field": "discriminative_features",
+        "original": "机身上有“Royal Air Force”字样和英国国旗标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上有“Royal Air Force”字样和英国国旗标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架军用重型运输直升机在蓝天背景下飞行或停放在地面，机身呈浅色迷彩涂装，旋翼高速旋转。",
+        "kept": "旋翼高速旋转",
+        "dropped": [
+          {
+            "text": "一架军用重型运输直升机在蓝天背景下飞行或停放在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "机身呈浅色迷彩涂装",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "CH53": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“MARINES”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“MARINES”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身编号“438”清晰可见",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身编号“438”清晰可见",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "CL415": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为黄色与红色相间，机翼和尾翼末端为红色",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为黄色与红色相间",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼和尾翼末端为红色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有意大利语文字“PROTEZIONE CIVILE”或“VIGILI DEL FUOCO”",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有意大利语文字“PROTEZIONE CIVILE”或“VIGILI DEL FUOCO”",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼后掠，翼尖有红色尾翼",
+        "kept": "机翼后掠",
+        "dropped": [
+          {
+            "text": "翼尖有红色尾翼",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身编号如“27”、“28”、“43○22”、“1109”等清晰可见",
+        "kept": "“28”，“43○22”，“1109”等清晰可见",
+        "dropped": [
+          {
+            "text": "机身编号如“27”",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "双翼上单翼布局，机翼后掠且翼尖有红色尾翼",
+        "kept": "双翼上单翼布局",
+        "dropped": [
+          {
+            "text": "机翼后掠且翼尖有红色尾翼",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机鼻为流线型，前端有编号，下方有起落架",
+        "kept": "机鼻为流线型，下方有起落架",
+        "dropped": [
+          {
+            "text": "前端有编号",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架黄红涂装的双发双浮筒式水陆两栖飞机正在空中飞行，机身侧面有意大利语文字和编号。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架黄红涂装的双发双浮筒式水陆两栖飞机正在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机身侧面有意大利语文字和编号",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "E2": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“NAVY”字样和星形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“NAVY”字样和星形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头编号为“600”",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头编号为“600”",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双发螺旋桨飞机，机背搭载大型圆形雷达罩，正在蓝天或甲板上飞行/滑行。",
+        "kept": "机背搭载大型圆形雷达罩，正在蓝天或甲板上飞行/滑行",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双发螺旋桨飞机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "E7": [],
+    "EF2000": [
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双发战斗机在空中或地面展示，机翼下挂载武器，座舱盖透明，尾部喷口有烟雾或火焰。",
+        "kept": "机翼下挂载武器，座舱盖透明，尾部喷口有烟雾或火焰",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双发战斗机在空中或地面展示",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "EMB314": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼为双垂尾，垂尾顶部有圆形徽章",
+        "kept": "尾翼为双垂尾",
+        "dropped": [
+          {
+            "text": "垂尾顶部有圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载物为圆柱形吊舱或武器",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载物为圆柱形吊舱或武器",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头有明显进气口，部分飞机机鼻有鲨鱼嘴涂装",
+        "kept": "机头有明显进气口",
+        "dropped": [
+          {
+            "text": "部分飞机机鼻有鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三架不同涂装的同型号螺旋桨飞机在空中飞行，从下方仰视视角拍摄，机翼下挂载武器或吊舱，尾翼为双垂尾。",
+        "kept": "从下方仰视视角拍摄，尾翼为双垂尾",
+        "dropped": [
+          {
+            "text": "三架不同涂装的同型号螺旋桨飞机在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载武器或吊舱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "F117": [
+      {
+        "field": "overall_description",
+        "original": "一架黑色多面体隐身战斗机，停在地面或在空中飞行，具有独特的棱角分明外形和无水平尾翼的尾部结构。",
+        "kept": "具有独特的棱角分明外形和无水平尾翼的尾部结构",
+        "dropped": [
+          {
+            "text": "一架黑色多面体隐身战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "停在地面或在空中飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F14": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载点可见，挂载有导弹或副油箱",
+        "kept": "机翼下挂载点可见",
+        "dropped": [
+          {
+            "text": "挂载有导弹或副油箱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "F15": [
+      {
+        "field": "overall_description",
+        "original": "一架双发、双垂尾、后掠翼战斗机在空中或地面展示，发动机喷口可见火焰。",
+        "kept": "一架双发，双垂尾，发动机喷口可见火焰",
+        "dropped": [
+          {
+            "text": "后掠翼战斗机在空中或地面展示",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F16": [],
+    "F18": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，呈密集排列",
+        "kept": "呈密集排列",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上标有黄色“U.S. NAVY”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上标有黄色“U.S. NAVY”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头侧面有“Blue Angels”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头侧面有“Blue Angels”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼后缘有黄色条纹装饰",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼后缘有黄色条纹装饰",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "全动式双垂尾，尾翼尖端有黄色标记",
+        "kept": "全动式双垂尾",
+        "dropped": [
+          {
+            "text": "尾翼尖端有黄色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架挂载多枚导弹的灰色双发战斗机在雪山背景下飞行，另一架蓝黄涂装的同型号飞机在空中编队飞行，第三张为从上方视角拍摄的蓝黄涂装飞机机头特写。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架挂载多枚导弹的灰色双发战斗机在雪山背景下飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "另一架蓝黄涂装的同型号飞机在空中编队飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "第三张为从上方视角拍摄的蓝黄涂装飞机机头特写",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F2": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载三枚大型导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载三枚大型导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头有红色圆形标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头有红色圆形标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为蓝色",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为蓝色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐的机头锥，部分为白色",
+        "kept": "尖锐的机头锥",
+        "dropped": [
+          {
+            "text": "部分为白色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-15: 机翼下挂载导弹数量不同，F-15通常挂载更多",
+        "kept": "与F-15: 机翼下挂载导弹数量不同，F-15通常挂载更多",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹数量不同",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-4: 机翼下挂载导弹数量不同，F-4通常挂载较少",
+        "kept": "与F-4: 机翼下挂载导弹数量不同，F-4通常挂载较少",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹数量不同",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三张图片展示了一架涂装为蓝色的日本航空自卫队F2战斗机，机翼下挂载多枚导弹，机头有红色圆圈标志，座舱内可见飞行员。",
+        "kept": "座舱内可见飞行员",
+        "dropped": [
+          {
+            "text": "三张图片展示了一架涂装为蓝色的日本航空自卫队F2战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "机头有红色圆圈标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F22": [
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的F22战斗机在高空飞行，机翼后掠，尾翼呈V形，正从上方视角拍摄，下方是蓝色海洋和陆地。",
+        "kept": "机翼后掠，尾翼呈V形，正从上方视角拍摄",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的F22战斗机在高空飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "下方是蓝色海洋和陆地",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F35": [
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的F-35战斗机在蓝天背景下进行飞行机动，机身后部可见喷气尾迹。",
+        "kept": "机身后部可见喷气尾迹",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的F-35战斗机在蓝天背景下进行飞行机动",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "F4": [],
+    "FCK1": [
+      {
+        "field": "overall_description",
+        "original": "三张图片分别展示了该型号战斗机在地面、空中及机翼特写状态，可见其灰色涂装、双发布局及鸭式布局特征。",
+        "kept": "空中及机翼特写状态，双发布局及鸭式布局特征",
+        "dropped": [
+          {
+            "text": "三张图片分别展示了该型号战斗机在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "可见其灰色涂装",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "H6": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载有多个大型圆柱形弹药或油箱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载有多个大型圆柱形弹药或油箱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Il76": [
+      {
+        "field": "discriminative_features",
+        "original": "高置平直机翼，翼尖有红色标记",
+        "kept": "高置平直机翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有蓝色“WFP”字样和“World Food”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有蓝色“WFP”字样和“World Food”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "高置平直机翼，翼尖有红色标记",
+        "kept": "高置平直机翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有WFP标志的Il76运输机在蓝天中飞行，机翼下挂载四台涡轮螺旋桨发动机，尾部有垂直尾翼和水平尾翼。",
+        "kept": "机翼下挂载四台涡轮螺旋桨发动机，尾部有垂直尾翼和水平尾翼",
+        "dropped": [
+          {
+            "text": "一架涂有WFP标志的Il76运输机在蓝天中飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "J10": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，呈对称分布",
+        "kept": "呈对称分布",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为浅灰色，无明显国家标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为浅灰色",
+            "rule": "livery"
+          },
+          {
+            "text": "无明显国家标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架浅灰色涂装的三角翼战斗机在蓝天背景下以大仰角爬升，机翼下挂载多枚导弹。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架浅灰色涂装的三角翼战斗机在蓝天背景下以大仰角爬升",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "J20": [
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的隐形战斗机在蓝天背景下以高仰角爬升，机身周围有明显的气流扰动和尾喷气流。",
+        "kept": "机身周围有明显的气流扰动和尾喷气流",
+        "dropped": [
+          {
+            "text": "一架深色涂装的隐形战斗机在蓝天背景下以高仰角爬升",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "J35": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为绿色迷彩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为绿色迷彩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有绿色迷彩的战斗机从下方仰视，机翼后掠，尾部有双发动机喷口，正在蓝天背景下飞行。",
+        "kept": "机翼后掠，尾部有双发动机喷口",
+        "dropped": [
+          {
+            "text": "一架涂有绿色迷彩的战斗机从下方仰视",
+            "rule": "livery"
+          },
+          {
+            "text": "正在蓝天背景下飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "J36": [
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装、具有极陡峭三角翼和无尾布局的隐形战斗机，机翼下挂载有外挂物。",
+        "kept": "具有极陡峭三角翼和无尾布局的隐形战斗机，机翼下挂载有外挂物",
+        "dropped": [
+          {
+            "text": "一架深色涂装",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "J50": [
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的隐形战斗机在蓝天背景下以高角度俯冲姿态飞行，机翼呈三角翼或鸭翼布局，机身具有明显的多面体隐身外形。",
+        "kept": "机翼呈三角翼或鸭翼布局，机身具有明显的多面体隐身外形",
+        "dropped": [
+          {
+            "text": "一架深色涂装的隐形战斗机在蓝天背景下以高角度俯冲姿态飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "JAS39": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼为全动平尾，平尾上可见圆形国徽标志",
+        "kept": "尾翼为全动平尾",
+        "dropped": [
+          {
+            "text": "平尾上可见圆形国徽标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载有导弹或武器，挂架为外挂式",
+        "kept": "挂架为外挂式",
+        "dropped": [
+          {
+            "text": "机翼下挂载有导弹或武器",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "两架灰色战斗机在空中编队飞行，下方是绿色田野和水域，机头朝向镜头，座舱内可见飞行员。",
+        "kept": "机头朝向镜头，座舱内可见飞行员",
+        "dropped": [
+          {
+            "text": "两架灰色战斗机在空中编队飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "下方是绿色田野和水域",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "JF17": [
+      {
+        "field": "discriminative_features",
+        "original": "机尾垂直尾翼上标有“HAIDERS”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾垂直尾翼上标有“HAIDERS”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾垂直尾翼上有巴基斯坦空军圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾垂直尾翼上有巴基斯坦空军圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，挂架数量为4个（左右各2个）",
+        "kept": "挂架数量为4个（左右各2个）",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "全动平尾，垂直尾翼上部有巴基斯坦空军标志",
+        "kept": "全动平尾",
+        "dropped": [
+          {
+            "text": "垂直尾翼上部有巴基斯坦空军标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架巴基斯坦空军的JF-17战斗机正在起飞或降落，机腹喷口有火焰，起落架放下，机尾可见巴基斯坦空军标志和编号13-143。",
+        "kept": "一架巴基斯坦空军的JF-17战斗机正在起飞或降落，机腹喷口有火焰，起落架放下",
+        "dropped": [
+          {
+            "text": "机尾可见巴基斯坦空军标志和编号13-143",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "JH7": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载有导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载有导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼和尾翼上涂有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼和尾翼上涂有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有黄色数字编号",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有黄色数字编号",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双发战斗机停在地面，机头下方有人员和设备，背景建筑上有红色标语。",
+        "kept": "机头下方有人员和设备",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双发战斗机停在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "背景建筑上有红色标语",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "KAAN": [
+      {
+        "field": "discriminative_features",
+        "original": "机头下方有绿色发光装置",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头下方有绿色发光装置",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身上有“KAAN”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上有“KAAN”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰绿色涂装的单座双发隐形战斗机，机头有发光装置，机翼呈前掠或后掠翼布局，机身上有“KAAN”字样。",
+        "kept": "机头有发光装置，机翼呈前掠或后掠翼布局",
+        "dropped": [
+          {
+            "text": "一架灰绿色涂装的单座双发隐形战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有“KAAN”字样",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "KC135": [
+      {
+        "field": "discriminative_features",
+        "original": "垂直尾翼上标有字母“D”",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "垂直尾翼上标有字母“D”",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾水平尾翼上标有“USAF”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾水平尾翼上标有“USAF”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的四引擎军用运输机在空中飞行，机尾标有“USAF”字样。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的四引擎军用运输机在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机尾标有“USAF”字样",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "KF21": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上有黄黑相间的斜条纹标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上有黄黑相间的斜条纹标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，呈串联排列",
+        "kept": "呈串联排列",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与苏-57: 机翼下挂载导弹数量更多，进气道位置更靠前",
+        "kept": "与苏-57: 机翼下挂载导弹数量更多，进气道位置更靠前",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹数量更多",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的KF-21战斗机在蓝天背景下以倾斜姿态飞行，机翼下挂载多枚导弹，尾翼有黄黑条纹标记。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的KF-21战斗机在蓝天背景下以倾斜姿态飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "尾翼有黄黑条纹标记",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "KIZILELMA": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼为双三角翼布局，翼尖有圆形标志",
+        "kept": "机翼为双三角翼布局",
+        "dropped": [
+          {
+            "text": "翼尖有圆形标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身上有“KIZILELMA”字样和土耳其国徽标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上有“KIZILELMA”字样和土耳其国徽标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼和尾翼边缘有白色条纹装饰",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼和尾翼边缘有白色条纹装饰",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-22: 机翼尖端标志不同，F-22为无标志，KIZILELMA为圆形标志",
+        "kept": "与F-22: 机翼尖端标志不同，F-22为无标志，KIZILELMA为圆形标志",
+        "dropped": [
+          {
+            "text": "机翼尖端标志不同",
+            "rule": "livery"
+          },
+          {
+            "text": "F-22为无标志",
+            "rule": "livery"
+          },
+          {
+            "text": "KIZILELMA为圆形标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-2: 机身涂装不同，B-2为灰色，KIZILELMA为深灰色",
+        "kept": "与B-2: 机身涂装不同，B-2为灰色，KIZILELMA为深灰色",
+        "dropped": [
+          {
+            "text": "机身涂装不同",
+            "rule": "livery"
+          },
+          {
+            "text": "B-2为灰色",
+            "rule": "livery"
+          },
+          {
+            "text": "KIZILELMA为深灰色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的单座双发隐形战斗机，机身上有“KIZILELMA”字样和土耳其国徽标志，停放在展示台上，周围有观众。",
+        "kept": "停放在展示台上，周围有观众",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的单座双发隐形战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有“KIZILELMA”字样和土耳其国徽标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "KJ600": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面可见红黄蓝三色条纹标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面可见红黄蓝三色条纹标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与A-10: 机翼下挂载发动机，而A-10为机翼下挂载机炮",
+        "kept": "与A-10: 机翼下挂载发动机，而A-10为机翼下挂载机炮",
+        "dropped": [
+          {
+            "text": "而A-10为机翼下挂载机炮",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Ka27": [
+      {
+        "field": "discriminative_features",
+        "original": "尾梁上带有俄式三色旗标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾梁上带有俄式三色旗标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "部分机头有鲨鱼嘴涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "部分机头有鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色数字编号（如54、401、23）",
+        "kept": "401，23）",
+        "dropped": [
+          {
+            "text": "机身侧面有红色数字编号（如54",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "单垂尾，尾梁上带有俄式三色旗标志",
+        "kept": "单垂尾",
+        "dropped": [
+          {
+            "text": "尾梁上带有俄式三色旗标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头有大型透明座舱罩，部分机头有鲨鱼嘴涂装",
+        "kept": "机头有大型透明座舱罩",
+        "dropped": [
+          {
+            "text": "部分机头有鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Ka-32: Ka-32为双发，但机头无鲨鱼嘴涂装",
+        "kept": "与Ka-32: Ka-32为双发，但机头无鲨鱼嘴涂装",
+        "dropped": [
+          {
+            "text": "但机头无鲨鱼嘴涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "三张图片展示的是多架涂装不同的Ka27直升机，分别在机库、甲板上，有人员在旁，部分机头有鲨鱼嘴涂装，尾梁有俄式三色旗标志。",
+        "kept": "分别在机库，甲板上，有人员在旁",
+        "dropped": [
+          {
+            "text": "三张图片展示的是多架涂装不同的Ka27直升机",
+            "rule": "livery"
+          },
+          {
+            "text": "部分机头有鲨鱼嘴涂装",
+            "rule": "livery"
+          },
+          {
+            "text": "尾梁有俄式三色旗标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Ka52": [
+      {
+        "field": "discriminative_features",
+        "original": "机身两侧各挂载1个导弹荚舱，共2个",
+        "kept": "共2个",
+        "dropped": [
+          {
+            "text": "机身两侧各挂载1个导弹荚舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾梁末端有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾梁末端有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有迷彩和红星标志的Ka52武装直升机在多云天空中飞行，机身挂载多枚导弹和火箭弹，旋翼高速旋转。",
+        "kept": "旋翼高速旋转",
+        "dropped": [
+          {
+            "text": "一架涂有迷彩和红星标志的Ka52武装直升机在多云天空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机身挂载多枚导弹和火箭弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "MQ20": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载有多个吊舱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载有多个吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身上有清晰的注册号N903PC",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上有清晰的注册号N903PC",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰白色涂装的无人机，从上方俯视，机翼呈高展弦比，下方挂载有吊舱，正飞越布满车辙的红褐色地面。",
+        "kept": "从上方俯视，机翼呈高展弦比",
+        "dropped": [
+          {
+            "text": "一架灰白色涂装的无人机",
+            "rule": "livery"
+          },
+          {
+            "text": "下方挂载有吊舱",
+            "rule": "loadout"
+          },
+          {
+            "text": "正飞越布满车辙的红褐色地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "MQ25": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼末端有红色标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头为橙色锥形",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头为橙色锥形",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼末端有红色标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头为锥形，前部有橙色涂装，前端有多个传感器或天线安装点",
+        "kept": "机头为锥形，前端有多个传感器或天线安装点",
+        "dropped": [
+          {
+            "text": "前部有橙色涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与MQ-9: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与MQ-9: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与RQ-4: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与RQ-4: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与X-47B: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与X-47B: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-2: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与B-2: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-35: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与F-35: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-21: 无传统尾翼，机翼末端有红色标记",
+        "kept": "与B-21: 无传统尾翼，机翼末端有红色标记",
+        "dropped": [
+          {
+            "text": "机翼末端有红色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架具有无尾飞翼布局、机翼末端带红色标记、机头为橙色锥形的无人加油机，正在不同场景下展示。",
+        "kept": "一架具有无尾飞翼布局，正在不同场景下展示",
+        "dropped": [
+          {
+            "text": "机翼末端带红色标记",
+            "rule": "livery"
+          },
+          {
+            "text": "机头为橙色锥形的无人加油机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "MQ28": [
+      {
+        "field": "discriminative_features",
+        "original": "机头为尖锐锥形，内部可见红色或橙色内衬",
+        "kept": "机头为尖锐锥形",
+        "dropped": [
+          {
+            "text": "内部可见红色或橙色内衬",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色或橙色标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色或橙色标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为深灰色",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为深灰色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐锥形机头，机头下方有红色或橙色内衬",
+        "kept": "尖锐锥形机头",
+        "dropped": [
+          {
+            "text": "机头下方有红色或橙色内衬",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的无人攻击机，机头尖锐，机翼后掠，尾部有红色或橙色标记，停放在地面，起落架已放下。",
+        "kept": "机头尖锐，机翼后掠，起落架已放下",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的无人攻击机",
+            "rule": "livery"
+          },
+          {
+            "text": "尾部有红色或橙色标记",
+            "rule": "livery"
+          },
+          {
+            "text": "停放在地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "MQ35": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有黄色方形标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有黄色方形标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "多架灰色、无尾翼、固定翼、无传统起落架的无人机在机库内或航母甲板上，由人员操作。",
+        "kept": "无尾翼，固定翼，无传统起落架的无人机在机库内或航母甲板上，由人员操作",
+        "dropped": [
+          {
+            "text": "多架灰色",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "MQ9": [
+      {
+        "field": "overall_description",
+        "original": "一架大型灰色无人攻击机停在跑道上，机头朝前，机翼宽大，尾部有螺旋桨和垂直尾翼。",
+        "kept": "机头朝前，机翼宽大，尾部有螺旋桨和垂直尾翼",
+        "dropped": [
+          {
+            "text": "一架大型灰色无人攻击机停在跑道上",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Mi24": [
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为迷彩或灰色",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为迷彩或灰色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架军用直升机在地面被维修，另一架在空中飞行，第三架为模糊的空中飞行图像，均呈现双旋翼、带外挂武器的重型攻击直升机外形。",
+        "kept": "另一架在空中飞行，第三架为模糊的空中飞行图像，均呈现双旋翼，带外挂武器的重型攻击直升机外形",
+        "dropped": [
+          {
+            "text": "一架军用直升机在地面被维修",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Mi26": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“MI-26T”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“MI-26T”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂装为浅色或迷彩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂装为浅色或迷彩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型双旋翼重型运输直升机在空中飞行，机身呈浅色或迷彩涂装，旋翼叶片数量多且长，尾部有尾桨。",
+        "kept": "一架大型双旋翼重型运输直升机在空中飞行，旋翼叶片数量多且长，尾部有尾桨",
+        "dropped": [
+          {
+            "text": "机身呈浅色或迷彩涂装",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Mi28": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与UH-60: 无红色五角星标志，尾部为T型尾翼",
+        "kept": "与UH-60: 无红色五角星标志，尾部为T型尾翼",
+        "dropped": [
+          {
+            "text": "无红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架迷彩涂装的军用直升机在空中飞行或地面停放，机身侧面有红色五角星标志，旋翼高速旋转。",
+        "kept": "旋翼高速旋转",
+        "dropped": [
+          {
+            "text": "一架迷彩涂装的军用直升机在空中飞行或地面停放",
+            "rule": "livery"
+          },
+          {
+            "text": "机身侧面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Mi8": [
+      {
+        "field": "discriminative_features",
+        "original": "机身下方两侧各有一个外挂式机枪架",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身下方两侧各有一个外挂式机枪架",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头顶部有圆形徽标",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头顶部有圆形徽标",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身呈橄榄绿色涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身呈橄榄绿色涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐机鼻，顶部有圆形徽标",
+        "kept": "尖锐机鼻",
+        "dropped": [
+          {
+            "text": "顶部有圆形徽标",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架军用直升机在蓝天背景下飞行，旋翼高速旋转呈模糊状，机身下方可见起落架和尾部尾桨。",
+        "kept": "旋翼高速旋转呈模糊状，机身下方可见起落架和尾部尾桨",
+        "dropped": [
+          {
+            "text": "一架军用直升机在蓝天背景下飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Mig29": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载两个圆柱形外部油箱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载两个圆柱形外部油箱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-15: 机翼下挂载油箱，尾喷口为圆形并列，F-15为单发或双发但布局不同",
+        "kept": "与F-15: 机翼下挂载油箱，尾喷口为圆形并列，F-15为单发或双发但布局不同",
+        "dropped": [
+          {
+            "text": "机翼下挂载油箱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与MiG-25: 机翼下无大型油箱，进气道位置不同",
+        "kept": "与MiG-25: 机翼下无大型油箱，进气道位置不同",
+        "dropped": [
+          {
+            "text": "机翼下无大型油箱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的战斗机在空中以高角度姿态飞行，机身后部可见两台喷气发动机喷出尾焰，机翼下挂载有圆柱形外部油箱。",
+        "kept": "机身后部可见两台喷气发动机喷出尾焰",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的战斗机在空中以高角度姿态飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载有圆柱形外部油箱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Mig31": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上涂有红色五角星",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上涂有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "双垂直尾翼，尾翼上带红色五角星",
+        "kept": "双垂直尾翼",
+        "dropped": [
+          {
+            "text": "尾翼上带红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与米格-25: 机翼下挂载导弹，米格-25无挂架",
+        "kept": "与米格-25: 机翼下挂载导弹，米格-25无挂架",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与苏-35: 机翼下挂载导弹数量和布局不同，苏-35为多用途战斗机",
+        "kept": "与苏-35: 机翼下挂载导弹数量和布局不同，苏-35为多用途战斗机",
+        "dropped": [
+          {
+            "text": "机翼下挂载导弹数量和布局不同",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有红色五角星标志的灰色双发重型截击机在空中飞行，机翼下挂载多枚导弹，尾喷口可见火焰。",
+        "kept": "尾喷口可见火焰",
+        "dropped": [
+          {
+            "text": "一架涂有红色五角星标志的灰色双发重型截击机在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Mirage2000": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，包括一枚红白相间的导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "包括一枚红白相间的导弹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的单座战斗机从上方俯拍，机翼呈三角形，机身下方挂载多枚导弹。",
+        "kept": "机翼呈三角形",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的单座战斗机从上方俯拍",
+            "rule": "livery"
+          },
+          {
+            "text": "机身下方挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "NH90": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有“AIR FORCE”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有“AIR FORCE”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色军用直升机在不同背景下飞行，旋翼高速旋转，机身下方可见起落架和吊索装置。",
+        "kept": "旋翼高速旋转，机身下方可见起落架和吊索装置",
+        "dropped": [
+          {
+            "text": "一架灰色军用直升机在不同背景下飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "P3": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面可见圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面可见圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架四引擎螺旋桨军用飞机从不同角度拍摄，包括俯视、正视和侧视，机身涂装和环境各异。",
+        "kept": "一架四引擎螺旋桨军用飞机从不同角度拍摄，包括俯视，正视和侧视",
+        "dropped": [
+          {
+            "text": "机身涂装和环境各异",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "RQ4": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有北约（NATO）标志和星形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有北约（NATO）标志和星形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的大型无人侦察机，停在机场跑道上，机身上有北约标志，机翼宽大，机头呈圆钝形。",
+        "kept": "机翼宽大，机头呈圆钝形",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的大型无人侦察机",
+            "rule": "livery"
+          },
+          {
+            "text": "停在机场跑道上",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有北约标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Rafale": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂架对称分布，共挂载8枚导弹和2个副油箱",
+        "kept": "机翼下挂架对称分布",
+        "dropped": [
+          {
+            "text": "共挂载8枚导弹和2个副油箱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上部有法国空军圆形徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上部有法国空军圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "全动式双垂尾，尾翼上部有法国空军圆形徽章",
+        "kept": "全动式双垂尾",
+        "dropped": [
+          {
+            "text": "尾翼上部有法国空军圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架挂载多枚导弹和副油箱的Rafale战斗机从下方仰视，机翼下挂架对称分布，尾翼上可见法国空军圆形徽章。",
+        "kept": "机翼下挂架对称分布",
+        "dropped": [
+          {
+            "text": "一架挂载多枚导弹和副油箱的Rafale战斗机从下方仰视",
+            "rule": "loadout"
+          },
+          {
+            "text": "尾翼上可见法国空军圆形徽章",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "SR71": [
+      {
+        "field": "discriminative_features",
+        "original": "机身中部有橙色标记线",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身中部有橙色标记线",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架黑色涂装的双发高超音速侦察机从上方俯拍，机翼呈三角翼布局，下方是沙漠地貌。",
+        "kept": "机翼呈三角翼布局，下方是沙漠地貌",
+        "dropped": [
+          {
+            "text": "一架黑色涂装的双发高超音速侦察机从上方俯拍",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Su24": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载两个大型圆柱形吊舱",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载两个大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼尖端有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼尖端有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "双发变后掠翼，翼尖有红色五角星标志",
+        "kept": "双发变后掠翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-25: Su-25为单发，机翼下挂载的是小型武器吊舱，而非大型圆柱形吊舱",
+        "kept": "与Su-25: Su-25为单发，机翼下挂载的是小型武器吊舱，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "机翼下挂载的是小型武器吊舱",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-27: Su-27为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "kept": "与Su-27: Su-27为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "且机翼下挂载的是导弹或炸弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-34: Su-34为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "kept": "与Su-34: Su-34为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "且机翼下挂载的是导弹或炸弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-30: Su-30为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "kept": "与Su-30: Su-30为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "且机翼下挂载的是导弹或炸弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-35: Su-35为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "kept": "与Su-35: Su-35为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "且机翼下挂载的是导弹或炸弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Su-33: Su-33为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "kept": "与Su-33: Su-33为双发，但机翼为固定后掠翼，且机翼下挂载的是导弹或炸弹，而非大型圆柱形吊舱",
+        "dropped": [
+          {
+            "text": "且机翼下挂载的是导弹或炸弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "而非大型圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双发变后掠翼战斗轰炸机，停放在铺装地面或跑道上，机翼下挂载有圆柱形吊舱。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双发变后掠翼战斗轰炸机",
+            "rule": "livery"
+          },
+          {
+            "text": "停放在铺装地面或跑道上",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载有圆柱形吊舱",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Su25": [
+      {
+        "field": "discriminative_features",
+        "original": "机头顶部有两根红色旗帜状装饰物",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头顶部有两根红色旗帜状装饰物",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架苏-25攻击机在不同场景下展示，包括飞行时喷口火焰、地面停放时机头特写及机务人员作业。",
+        "kept": "一架苏-25攻击机在不同场景下展示，包括飞行时喷口火焰",
+        "dropped": [
+          {
+            "text": "地面停放时机头特写及机务人员作业",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Su34": [
+      {
+        "field": "discriminative_features",
+        "original": "机头尖锐，涂装为白色",
+        "kept": "机头尖锐",
+        "dropped": [
+          {
+            "text": "涂装为白色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身上有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上表面有红色五角星",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上表面有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "发动机喷口喷出白色气流",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "发动机喷口喷出白色气流",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "双垂尾，尾翼上表面有红色五角星",
+        "kept": "双垂尾",
+        "dropped": [
+          {
+            "text": "尾翼上表面有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头尖锐，涂装为白色，机头下方有红色数字编号",
+        "kept": "机头尖锐",
+        "dropped": [
+          {
+            "text": "涂装为白色",
+            "rule": "livery"
+          },
+          {
+            "text": "机头下方有红色数字编号",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的苏-34战斗轰炸机正在空中以大仰角爬升，机翼下可见发动机喷口喷出白色气流，机身上有红色五角星标志。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的苏-34战斗轰炸机正在空中以大仰角爬升",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下可见发动机喷口喷出白色气流",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Su47": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼上表面有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼上表面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-2: 无隐身外形，机翼前掠且有明显标志",
+        "kept": "与B-2: 无隐身外形，机翼前掠且有明显标志",
+        "dropped": [
+          {
+            "text": "机翼前掠且有明显标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与F-22: 无隐身外形，机翼前掠且有明显标志",
+        "kept": "与F-22: 无隐身外形，机翼前掠且有明显标志",
+        "dropped": [
+          {
+            "text": "机翼前掠且有明显标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的战斗机在空中以大迎角姿态飞行，机翼前缘明显上扬，尾部喷口有火焰。",
+        "kept": "机翼前缘明显上扬，尾部喷口有火焰",
+        "dropped": [
+          {
+            "text": "一架深色涂装的战斗机在空中以大迎角姿态飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Su57": [
+      {
+        "field": "discriminative_features",
+        "original": "机身上涂有迷彩图案和红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身上涂有迷彩图案和红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有迷彩和红色五角星标志的苏-57战斗机，从不同角度在蓝天中飞行，部分图像显示其发动机喷口或正在释放烟雾。",
+        "kept": "从不同角度在蓝天中飞行，部分图像显示其发动机喷口或正在释放烟雾",
+        "dropped": [
+          {
+            "text": "一架涂有迷彩和红色五角星标志的苏-57战斗机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "T50": [
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的单座双发战斗机，停在地面，机头下方有红色牵引带，座舱盖透明，起落架放下。",
+        "kept": "座舱盖透明，起落架放下",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的单座双发战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "停在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "机头下方有红色牵引带",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "TB001": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼上印有白色“TENCEN”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼上印有白色“TENCEN”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载多枚导弹，导弹呈圆柱形，尾部有黄色环状标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载多枚导弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "导弹呈圆柱形",
+            "rule": "loadout"
+          },
+          {
+            "text": "尾部有黄色环状标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与A-10 Thunderbolt II: 无厚重装甲和机炮，机翼挂载导弹而非炸弹",
+        "kept": "与A-10 Thunderbolt II: 无厚重装甲和机炮，机翼挂载导弹而非炸弹",
+        "dropped": [
+          {
+            "text": "无厚重装甲和机炮",
+            "rule": "loadout"
+          },
+          {
+            "text": "机翼挂载导弹而非炸弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与B-52 Stratofortress: 无大型机身和多引擎布局，机翼挂载导弹而非大型炸弹",
+        "kept": "与B-52 Stratofortress: 无大型机身和多引擎布局，机翼挂载导弹而非大型炸弹",
+        "dropped": [
+          {
+            "text": "机翼挂载导弹而非大型炸弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装、机翼下挂载多枚导弹的大型双发螺旋桨无人机，机翼上标有“TENCEN”字样，正在蓝天中飞行。",
+        "kept": "机翼下挂载多枚导弹的大型双发螺旋桨无人机，正在蓝天中飞行",
+        "dropped": [
+          {
+            "text": "一架灰色涂装",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼上标有“TENCEN”字样",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "TB2": [
+      {
+        "field": "discriminative_features",
+        "original": "机尾垂尾上有红色圆形标记",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾垂尾上有红色圆形标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架浅色涂装的双引擎无人机在空中或地面，具有高长宽比的平直机翼和独特的双垂尾布局。",
+        "kept": "具有高长宽比的平直机翼和独特的双垂尾布局",
+        "dropped": [
+          {
+            "text": "一架浅色涂装的双引擎无人机在空中或地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Tejas": [
+      {
+        "field": "discriminative_features",
+        "original": "三角翼布局，翼尖有红色圆圈标记",
+        "kept": "三角翼布局",
+        "dropped": [
+          {
+            "text": "翼尖有红色圆圈标记",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的单发战斗机在晴朗蓝天中以大仰角爬升，机翼下挂载武器，尾翼有意大利国旗标记。",
+        "kept": "机翼下挂载武器",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的单发战斗机在晴朗蓝天中以大仰角爬升",
+            "rule": "livery"
+          },
+          {
+            "text": "尾翼有意大利国旗标记",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Tornado": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载两枚锥形导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载两枚锥形导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾有德国国旗标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾有德国国旗标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的双引擎变后掠翼战斗机，机翼下挂载导弹，正在空中或地面滑行。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的双引擎变后掠翼战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载导弹",
+            "rule": "loadout"
+          },
+          {
+            "text": "正在空中或地面滑行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Tu160": [
+      {
+        "field": "structural_attributes",
+        "attr": "进气道",
+        "original": "圆形进气道，位于机翼根部下方，呈深色内腔",
+        "kept": "圆形进气道",
+        "dropped": [
+          {
+            "text": "呈深色内腔",
+            "rule": "livery"
+          },
+          {
+            "text": "位于机翼根部下方",
+            "rule": "orphan_modifier"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型战略轰炸机停在地面，一名地勤人员正从其左侧发动机进气道内攀爬出来，背景有地面保障车辆。",
+        "kept": "一名地勤人员正从其左侧发动机进气道内攀爬出来",
+        "dropped": [
+          {
+            "text": "一架大型战略轰炸机停在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "背景有地面保障车辆",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Tu22M": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼尖端有红色五角星",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼尖端有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾锥上有红色五角星",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾锥上有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身尾部有“ВВС РОССИИ”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身尾部有“ВВС РОССИИ”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机翼布局",
+        "original": "后掠式机翼，翼尖有红色五角星",
+        "kept": "后掠式机翼",
+        "dropped": [
+          {
+            "text": "翼尖有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "尾翼形式",
+        "original": "全动平尾，尾锥上有红色五角星",
+        "kept": "全动平尾",
+        "dropped": [
+          {
+            "text": "尾锥上有红色五角星",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有俄罗斯空军标志的Tu-22M轰炸机停在雪地机场，机翼被帆布覆盖，尾部有红色五角星和“ВВС РОССИИ”字样，下方有军用卡车。",
+        "kept": "机翼被帆布覆盖，下方有军用卡车",
+        "dropped": [
+          {
+            "text": "一架涂有俄罗斯空军标志的Tu-22M轰炸机停在雪地机场",
+            "rule": "livery"
+          },
+          {
+            "text": "尾部有红色五角星和“ВВС РОССИИ”字样",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Tu95": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有红色五角星标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架大型四发螺旋桨轰炸机在空中飞行或停放在甲板上，机翼下挂载大型发动机，机身上有红色五角星标志。",
+        "kept": "一架大型四发螺旋桨轰炸机在空中飞行或停放在甲板上，机翼下挂载大型发动机",
+        "dropped": [
+          {
+            "text": "机身上有红色五角星标志",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "U2": [
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的U-2侦察机停放在地面，机翼下挂载大型发动机，背景可见其他同类型飞机；另一张为该机在空中飞行的剪影，机翼极长且后掠角大；第三张为该机从下方仰视的飞行姿态，可见其细长机身和高置尾翼。",
+        "kept": "机翼下挂载大型发动机，另一张为该机在空中飞行的剪影，机翼极长且后掠角大，第三张为该机从下方仰视的飞行姿态，可见其细长机身和高置尾翼",
+        "dropped": [
+          {
+            "text": "一架深色涂装的U-2侦察机停放在地面",
+            "rule": "livery"
+          },
+          {
+            "text": "背景可见其他同类型飞机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "UH60": [
+      {
+        "field": "overall_description",
+        "original": "一架军用直升机在蓝天背景下从下方仰视拍摄，或停在停机坪上，其旋翼和尾桨清晰可见。",
+        "kept": "其旋翼和尾桨清晰可见",
+        "dropped": [
+          {
+            "text": "一架军用直升机在蓝天背景下从下方仰视拍摄",
+            "rule": "livery"
+          },
+          {
+            "text": "或停在停机坪上",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "US2": [
+      {
+        "field": "discriminative_features",
+        "original": "机身两侧各有一个红色圆形标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身两侧各有一个红色圆形标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机尾编号为9901（图3）",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机尾编号为9901（图3）",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的四发螺旋桨飞机，机翼下挂载多组发动机，机身上有红色圆圈标志，停在地面或飞行中。",
+        "kept": "机翼下挂载多组发动机",
+        "dropped": [
+          {
+            "text": "一架深色涂装的四发螺旋桨飞机",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有红色圆圈标志",
+            "rule": "livery"
+          },
+          {
+            "text": "停在地面或飞行中",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "V22": [
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的倾转旋翼机在空中飞行，或停泊在甲板上，其旋翼处于垂直位置，机翼向后折叠，起落架放下。",
+        "kept": "或停泊在甲板上，其旋翼处于垂直位置，机翼向后折叠，起落架放下",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的倾转旋翼机在空中飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "V280": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面可见“BELL”标志和“V-280”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面可见“BELL”标志和“V-280”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的倾转旋翼机在蓝天背景下飞行，或停放在地面，其旋翼处于倾斜状态。",
+        "kept": "其旋翼处于倾斜状态",
+        "dropped": [
+          {
+            "text": "一架深色涂装的倾转旋翼机在蓝天背景下飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "或停放在地面",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Vulcan": [
+      {
+        "field": "discriminative_features",
+        "original": "机身下挂载8枚导弹，呈4对对称分布",
+        "kept": "呈4对对称分布",
+        "dropped": [
+          {
+            "text": "机身下挂载8枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头顶部有圆形识别标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头顶部有圆形识别标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身涂有灰黑相间的迷彩涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身涂有灰黑相间的迷彩涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐的锥形机头，顶部有圆形识别标志",
+        "kept": "尖锐的锥形机头",
+        "dropped": [
+          {
+            "text": "顶部有圆形识别标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有迷彩涂装的三角翼战略轰炸机在空中飞行，机翼尖端向上弯曲，机身下挂载多枚导弹。",
+        "kept": "机翼尖端向上弯曲",
+        "dropped": [
+          {
+            "text": "一架涂有迷彩涂装的三角翼战略轰炸机在空中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机身下挂载多枚导弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "WZ10": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载黄色设备",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载黄色设备",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上有红蓝标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上有红蓝标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的大型无人侦察机停在机场停机坪上，机翼宽大，尾翼高耸，机头下方可见起落架。",
+        "kept": "机翼宽大，尾翼高耸，机头下方可见起落架",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的大型无人侦察机停在机场停机坪上",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "WZ7": [
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有白色数字编号",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有白色数字编号",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼末端有白色军用标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼末端有白色军用标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头下方有红色小灯",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头下方有红色小灯",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的大型无人侦察机，停在地面或低空飞行，机翼宽大，机身下部有发动机进气口，机尾有双垂尾。",
+        "kept": "机翼宽大，机身下部有发动机进气口，机尾有双垂尾",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的大型无人侦察机",
+            "rule": "livery"
+          },
+          {
+            "text": "停在地面或低空飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "WZ9": [
+      {
+        "field": "overall_description",
+        "original": "一架深色涂装的军用飞机在空中飞行，机翼呈高置平直翼，尾部有明显垂直尾翼和水平尾翼，机身下方可见挂载物。",
+        "kept": "机翼呈高置平直翼，尾部有明显垂直尾翼和水平尾翼，机身下方可见挂载物",
+        "dropped": [
+          {
+            "text": "一架深色涂装的军用飞机在空中飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "X29": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下表面有深色条纹装饰",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下表面有深色条纹装饰",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架浅色涂装的实验性战斗机在空中以高角度姿态飞行，机翼后掠且翼尖有明显上翘，尾部有双垂直尾翼。",
+        "kept": "机翼后掠且翼尖有明显上翘，尾部有双垂直尾翼",
+        "dropped": [
+          {
+            "text": "一架浅色涂装的实验性战斗机在空中以高角度姿态飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "X32": [
+      {
+        "field": "overall_description",
+        "original": "一架灰色涂装的隐形战斗机，从上方俯视，机翼呈三角翼布局，尾翼为V形，停在或飞行于地面之上。",
+        "kept": "从上方俯视，机翼呈三角翼布局，尾翼为V形",
+        "dropped": [
+          {
+            "text": "一架灰色涂装的隐形战斗机",
+            "rule": "livery"
+          },
+          {
+            "text": "停在或飞行于地面之上",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "XB70": [
+      {
+        "field": "discriminative_features",
+        "original": "机头下方有黑色矩形进气道",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头下方有黑色矩形进气道",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有USAF字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有USAF字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼上部有圆形星条旗徽章",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼上部有圆形星条旗徽章",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "进气道",
+        "original": "位于机头下方，呈黑色矩形进气口",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "呈黑色矩形进气口",
+            "rule": "livery"
+          },
+          {
+            "text": "位于机头下方",
+            "rule": "orphan_modifier"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "尖锐锥形机头，涂装为黑色",
+        "kept": "尖锐锥形机头",
+        "dropped": [
+          {
+            "text": "涂装为黑色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架白色涂装的三角翼高超音速实验机在蓝天中飞行，机身上有USAF标志和NASA字样，机头下方有黑色进气道。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架白色涂装的三角翼高超音速实验机在蓝天中飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "机身上有USAF标志和NASA字样",
+            "rule": "livery"
+          },
+          {
+            "text": "机头下方有黑色进气道",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "XQ58": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼末端有红色尖端",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼末端有红色尖端",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机头有红色整流罩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头有红色整流罩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头有红色整流罩",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机头有红色整流罩",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架灰色的无人攻击机，具有无尾飞翼布局，机头有红色整流罩，机翼末端有红色尖端，机身后部有双垂直尾翼。",
+        "kept": "具有无尾飞翼布局，机身后部有双垂直尾翼",
+        "dropped": [
+          {
+            "text": "一架灰色的无人攻击机",
+            "rule": "livery"
+          },
+          {
+            "text": "机头有红色整流罩",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼末端有红色尖端",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Y20": [
+      {
+        "field": "discriminative_features",
+        "original": "机身尾部有红色尾锥",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身尾部有红色尾锥",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下表面有白色条纹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下表面有白色条纹",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机身侧面有中国空军标志",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身侧面有中国空军标志",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与C-17: 机翼翼尖无小翼，尾锥为黑色",
+        "kept": "与C-17: 机翼翼尖无小翼，尾锥为黑色",
+        "dropped": [
+          {
+            "text": "尾锥为黑色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与运-20: 机翼翼尖有小翼，尾锥为红色",
+        "kept": "与运-20: 机翼翼尖有小翼，尾锥为红色",
+        "dropped": [
+          {
+            "text": "尾锥为红色",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深灰色涂装的大型四发涡轮风扇运输机，从不同角度展示其在空中和地面的形态。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架深灰色涂装的大型四发涡轮风扇运输机",
+            "rule": "livery"
+          },
+          {
+            "text": "从不同角度展示其在空中和地面的形态",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "YF23": [
+      {
+        "field": "discriminative_features",
+        "original": "尾翼上标有“YF-23”和“#800”字样",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "尾翼上标有“YF-23”和“#800”字样",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架涂有“YF-23”和“#800”标识的深灰色三角翼战斗机，机头尖锐，尾翼呈V形，停放在室内或机库中。",
+        "kept": "机头尖锐，尾翼呈V形，停放在室内或机库中",
+        "dropped": [
+          {
+            "text": "一架涂有“YF-23”和“#800”标识的深灰色三角翼战斗机",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Z10": [
+      {
+        "field": "structural_attributes",
+        "attr": "机鼻特征",
+        "original": "机头下方有球形雷达罩，机头两侧有传感器吊舱",
+        "kept": "机头下方有球形雷达罩",
+        "dropped": [
+          {
+            "text": "机头两侧有传感器吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架蓝灰色涂装的武装直升机停放在机库内，另一架深绿色涂装的同型号直升机在树林上空飞行，第三架沙色涂装的同型号直升机在户外展台展出。",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "一架蓝灰色涂装的武装直升机停放在机库内",
+            "rule": "livery"
+          },
+          {
+            "text": "另一架深绿色涂装的同型号直升机在树林上空飞行",
+            "rule": "livery"
+          },
+          {
+            "text": "第三架沙色涂装的同型号直升机在户外展台展出",
+            "rule": "livery"
+          }
+        ]
+      }
+    ],
+    "Z19": [
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载两组四联装火箭弹发射器",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载两组四联装火箭弹发射器",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "discriminative_features",
+        "original": "机翼下挂载一枚圆柱形导弹",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机翼下挂载一枚圆柱形导弹",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深蓝色涂装的武装直升机停在跑道上，机翼下挂载多枚导弹和火箭弹，机头下方有球形雷达罩，尾部有涵道式尾桨。",
+        "kept": "机头下方有球形雷达罩，尾部有涵道式尾桨",
+        "dropped": [
+          {
+            "text": "一架深蓝色涂装的武装直升机停在跑道上",
+            "rule": "livery"
+          },
+          {
+            "text": "机翼下挂载多枚导弹和火箭弹",
+            "rule": "loadout"
+          }
+        ]
+      }
+    ],
+    "Z21": [
+      {
+        "field": "discriminative_features",
+        "original": "机身整体为深色涂装",
+        "kept": "",
+        "dropped": [
+          {
+            "text": "机身整体为深色涂装",
+            "rule": "livery"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与AH-64阿帕奇: 无明显外挂武器吊舱",
+        "kept": "与AH-64阿帕奇: 无明显外挂武器吊舱",
+        "dropped": [
+          {
+            "text": "无明显外挂武器吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与Mi-24雌鹿: 无明显外挂武器吊舱",
+        "kept": "与Mi-24雌鹿: 无明显外挂武器吊舱",
+        "dropped": [
+          {
+            "text": "无明显外挂武器吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "similar_class_differences",
+        "original": "与RAH-66科曼奇: 无明显外挂武器吊舱",
+        "kept": "与RAH-66科曼奇: 无明显外挂武器吊舱",
+        "dropped": [
+          {
+            "text": "无明显外挂武器吊舱",
+            "rule": "loadout"
+          }
+        ]
+      },
+      {
+        "field": "overall_description",
+        "original": "一架深色军用直升机在晴朗蓝天中飞行，旋翼高速旋转，尾部有尾桨。",
+        "kept": "旋翼高速旋转，尾部有尾桨",
+        "dropped": [
+          {
+            "text": "一架深色军用直升机在晴朗蓝天中飞行",
+            "rule": "livery"
+          }
+        ]
+      }
+    ]
+  }
+}
